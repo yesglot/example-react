@@ -21,20 +21,31 @@ function getSelectedLanguageCode(language) {
   );
 }
 
-function getScore(time, situation, pizza) {
-  const hash = (time + situation + pizza)
+function getCurrentTimeSeed(date = new Date()) {
+  return `${String(date.getHours()).padStart(2, "0")}:${String(date.getMinutes()).padStart(2, "0")}`;
+}
+
+function getCurrentTimeLabel(language, date = new Date()) {
+  return new Intl.DateTimeFormat(language || undefined, {
+    hour: "numeric",
+    minute: "2-digit",
+  }).format(date);
+}
+
+function getScore(timeSeed, situation, pizza) {
+  const hash = (timeSeed + situation + pizza)
     .split("").reduce((a, c) => a + c.charCodeAt(0), 0);
   return 91 + (hash % 9);
 }
 
-function getJustification(time, situation, pizza, t) {
+function getJustification(timeLabel, timeSeed, situation, pizza, t) {
   const justifications = t("justifications", { returnObjects: true });
-  const hash = (time + situation + pizza)
+  const hash = (timeSeed + situation + pizza)
     .split("").reduce((a, c) => a + c.charCodeAt(0), 0);
   const template = justifications[hash % justifications.length];
   return {
     argument: template.argument
-      .replace("{{time}}", time)
+      .replace("{{time}}", timeLabel)
       .replace("{{situation}}", situation)
       .replace("{{pizza}}", pizza),
     quote: template.quote,
@@ -233,11 +244,9 @@ export default function PizzaJustifier() {
   const { t } = useTranslation();
   const lang = getSelectedLanguageCode(i18n.resolvedLanguage || i18n.language);
 
-  const times = t("times", { returnObjects: true });
   const situations = t("situations", { returnObjects: true });
   const pizzas = t("pizzas", { returnObjects: true });
 
-  const [time, setTime] = useState(times[3]);
   const [situation, setSituation] = useState(situations[0]);
   const [pizza, setPizza] = useState(pizzas[0]);
   const [result, setResult] = useState(null);
@@ -248,10 +257,8 @@ export default function PizzaJustifier() {
     }
 
     i18n.changeLanguage(newLang).then(() => {
-      const newTimes = i18n.t("times", { returnObjects: true });
       const newSituations = i18n.t("situations", { returnObjects: true });
       const newPizzas = i18n.t("pizzas", { returnObjects: true });
-      setTime(newTimes[3] ?? newTimes[0] ?? "");
       setSituation(newSituations[0] ?? "");
       setPizza(newPizzas[0] ?? "");
       setResult(null);
@@ -259,8 +266,11 @@ export default function PizzaJustifier() {
   }
 
   function handleJustify() {
-    const score = getScore(time, situation, pizza);
-    const j = getJustification(time, situation, pizza, t);
+    const now = new Date();
+    const timeSeed = getCurrentTimeSeed(now);
+    const timeLabel = getCurrentTimeLabel(lang, now);
+    const score = getScore(timeSeed, situation, pizza);
+    const j = getJustification(timeLabel, timeSeed, situation, pizza, t);
     setResult({ score, ...j });
   }
 
@@ -296,16 +306,6 @@ export default function PizzaJustifier() {
 
         {/* Form */}
         <div className="pj-card">
-          <div className="pj-form-group">
-            <label className="pj-label">{t("labelTime")}</label>
-            <div className="pj-select-wrap">
-              <select className="pj-select" value={time}
-                onChange={(e) => { setTime(e.target.value); setResult(null); }}>
-                {times.map((t) => <option key={t}>{t}</option>)}
-              </select>
-            </div>
-          </div>
-
           <div className="pj-form-group">
             <label className="pj-label">{t("labelSituation")}</label>
             <div className="pj-select-wrap">

@@ -1,7 +1,6 @@
 {
   "title": "Pizza Justifier",
   "subtitle": "Enter your circumstances. Receive your verdict.",
-  "labelTime": "Current time",
   "labelSituation": "Your current situation",
   "labelPizza": "Pizza type",
   "btnJustify": "⚖️ Justify My Pizza",
@@ -11,10 +10,6 @@
   "sealVerdict": "Verdict: Justified. No further questions.",
   "footerCredit": "This pizza has been legally justified in {{languageCount}} languages thanks to <yesglot>yesglot.com</yesglot>.",
   "footerCta": "Your app could too — <github>source code on GitHub</github>.",
-  "times": [
-    "7:00 AM", "10:30 AM", "12:00 PM", "2:47 PM", "5:00 PM",
-    "7:30 PM", "10:00 PM", "12:00 AM", "2:47 AM", "4:13 AM"
-  ],
   "situations": [
     "just finished a sprint review",
     "it's raining outside",
