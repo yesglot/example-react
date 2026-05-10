@@ -1,16 +1,60 @@
 {
-  "title": "",
-  "subtitle": "",
-  "labelSituation": "",
-  "labelPizza": "",
-  "btnJustify": "",
-  "verdictTitle": "",
-  "verdictSub": "",
-  "sealText": "",
-  "sealVerdict": "",
-  "footerCredit": "",
-  "footerCta": "",
-  "situations": "",
-  "pizzas": "",
-  "justifications": ""
+  "title": "Pizza-Rechtfertiger",
+  "subtitle": "Schildern Sie die Umstände. Empfangen Sie das Urteil.",
+  "labelSituation": "Ihre aktuelle Lage",
+  "labelPizza": "Pizzasorte",
+  "btnJustify": "⚖️ Meine Pizza rechtfertigen",
+  "verdictTitle": "Die Beweislage ist erdrückend.",
+  "verdictSub": "Rechtfertigungswert: {{score}}/100 — Pizza essen.",
+  "sealText": "Amtlich beglaubigt vom Pizza-Rechtfertiger™",
+  "sealVerdict": "Urteil: Gerechtfertigt. Keine weiteren Fragen.",
+  "footerCredit": "Diese Pizza wurde dank <yesglot>yesglot.com</yesglot> bereits in {{languageCount}} Sprachen rechtskräftig gerechtfertigt.",
+  "footerCta": "Ihre App könnte das auch — <github>Quellcode auf GitHub</github>.",
+  "situations": [
+    "gerade ein Sprint-Review überstanden",
+    "draußen regnet es",
+    "leicht traurig",
+    "leicht glücklich",
+    "es ist Dienstag",
+    "ich habe es verdient",
+    "gestresst wegen einer Deadline",
+    "feiere nichts Besonderes",
+    "mein Kollege hat mein Mittagessen gegessen",
+    "Netflix hat gefragt, ob ich noch schaue"
+  ],
+  "pizzas": [
+    "Margherita",
+    "Pepperoni",
+    "BBQ Chicken",
+    "Hawaii",
+    "Vier Käse",
+    "Fleischfest"
+  ],
+  "justifications": [
+    {
+      "argument": "Euer Ehren, wir stehen hier an der Kreuzung von menschlicher Notwendigkeit und kulinarischer Exzellenz. Meine Mandantin — die Pizza — wurde um {{time}} unter dem fadenscheinigen Vorwurf '{{situation}}' zu Unrecht angezweifelt. Die Verteidigung legt dar: Dies ist in Wahrheit der ideale Zeitpunkt für {{pizza}}. Der Präzedenzfall (Italien gegen Alle, 1889) stellt unmissverständlich fest, dass Pizza zu jeder Uhrzeit angemessen ist. Die Verteidigung ruht.",
+      "quote": "Pizza ist kein Wunsch. Pizza ist ein Bedürfnis.",
+      "authority": "Das Internationale Pizza-Tribunal"
+    },
+    {
+      "argument": "Das Protokoll halte fest: Um {{time}}, bei vorherrschender Sachlage '{{situation}}', ist der Verzehr von {{pizza}}-Pizza nicht nur gerechtfertigt — er ist verfassungsrechtlich geschützt. Artikel 1, Abschnitt Pi: 'Keinem Bürger darf unter Bedingungen emotionaler Komplexität das Recht auf geschmolzenen Käse verwehrt werden.' Fall abgeschlossen.",
+      "quote": "Käse heilt, woran Worte scheitern.",
+      "authority": "Dr. Giuseppa Romano, Pizza-Philosophin"
+    },
+    {
+      "argument": "Wir legen Beweisstück A vor: Es ist {{time}}. Beweisstück B: Sie haben es mit '{{situation}}' zu tun. Beweisstück C: {{pizza}}-Pizza existiert und steht Ihnen zur Verfügung. Die logische Schlussfolgerung, gestützt von 94,7 % aller befragten italienischen Großmütter, lautet: Sie müssen diese Pizza essen. Alles andere wäre eine Absage an die Wissenschaft selbst.",
+      "quote": "Der Rand ist das Fundament. Von allem.",
+      "authority": "Nonnas Oberster Gerichtshof für Wohlfühlessen"
+    },
+    {
+      "argument": "Hohes Geschworenengericht, bedenken Sie Folgendes: Menschen essen seit ungefähr 997 n. Chr. Pizza. Und in all dieser Zeit hat niemand je zurückgeblickt und gesagt: 'Ich bereue, diese Pizza um {{time}} gegessen zu haben, während {{situation}}.' Wir haben {{pizza}}-Pizza. Wir haben einen Moment. Wir haben ein Schicksal. Das Urteil schreibt sich von selbst.",
+      "quote": "Reue ist etwas für Menschen, die Pizza ausgelassen haben.",
+      "authority": "Die Historische Gesellschaft guter Entscheidungen"
+    },
+    {
+      "argument": "Meine Mandantin trägt mit allem gebotenen Respekt vor, dass {{time}} statistisch die am meisten unterschätzte Uhrzeit für {{pizza}}-Pizza ist. Ferner stellt '{{situation}}' ein anerkanntes auslösendes Ereignis gemäß Klausel 7 des Snack-Notstandsgesetzes dar. Die Behauptung der Anklage, 'es sei zu spät/früh', wurde bereits in 47 Gerichtsbarkeiten verworfen. Essen Sie die Pizza.",
+      "quote": "Zeit ist ein soziales Konstrukt. Pizza ist real.",
+      "authority": "Professor O. Mozzarella, Institut für temporale Lebensmittelstudien"
+    }
+  ]
 }

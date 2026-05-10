@@ -1,16 +1,60 @@
 {
-  "title": "",
-  "subtitle": "",
-  "labelSituation": "",
-  "labelPizza": "",
-  "btnJustify": "",
-  "verdictTitle": "",
-  "verdictSub": "",
-  "sealText": "",
-  "sealVerdict": "",
-  "footerCredit": "",
-  "footerCta": "",
-  "situations": "",
-  "pizzas": "",
-  "justifications": ""
+  "title": "Pizza Biện Hộ",
+  "subtitle": "Trình bày hoàn cảnh. Nhận phán quyết.",
+  "labelSituation": "Tình hình hiện tại của bạn",
+  "labelPizza": "Loại pizza",
+  "btnJustify": "⚖️ Biện Hộ Pizza Cho Tôi",
+  "verdictTitle": "Chứng cứ đã quá rõ ràng.",
+  "verdictSub": "Điểm biện hộ: {{score}}/100 — Cứ ăn pizza đi.",
+  "sealText": "Chính thức chứng nhận bởi Pizza Justifier™",
+  "sealVerdict": "Phán quyết: Hợp tình hợp lý. Hết hỏi.",
+  "footerCredit": "Chiếc pizza này đã được biện hộ hợp pháp bằng {{languageCount}} ngôn ngữ nhờ <yesglot>yesglot.com</yesglot>.",
+  "footerCta": "Ứng dụng của bạn cũng có thể làm vậy — <github>mã nguồn trên GitHub</github>.",
+  "situations": [
+    "vừa họp sprint review xong",
+    "ngoài trời đang mưa",
+    "hơi buồn một chút",
+    "hơi vui một chút",
+    "hôm nay là thứ Ba",
+    "tôi xứng đáng",
+    "đang stress vì deadline",
+    "ăn mừng chẳng vì lý do gì cụ thể",
+    "đồng nghiệp ăn mất bữa trưa của tôi",
+    "Netflix hỏi tôi còn xem nữa không"
+  ],
+  "pizzas": [
+    "Margherita",
+    "Pepperoni",
+    "BBQ Chicken",
+    "Hawaiian",
+    "Bốn Loại Phô Mai",
+    "Ngập Thịt"
+  ],
+  "justifications": [
+    {
+      "argument": "Kính thưa Quý tòa, hôm nay chúng ta đứng trước ngã rẽ giữa nhu cầu rất con người và sự xuất sắc của ẩm thực. Thân chủ của tôi — pizza — đã bị nghi ngờ oan uổng vào lúc {{time}} chỉ vì lý do '{{situation}}'. Bên bào chữa xin khẳng định rằng đây, trên thực tế, chính là thời khắc lý tưởng cho {{pizza}}. Án lệ (Italy kiện Toàn Thế Giới, 1889) đã xác lập rõ: pizza phù hợp vào mọi khung giờ. Chúng tôi xin hết.",
+      "quote": "Pizza không phải mong muốn. Đó là nhu cầu thiết yếu.",
+      "authority": "Tòa Án Pizza Quốc Tế"
+    },
+    {
+      "argument": "Xin ghi vào biên bản: vào lúc {{time}}, khi '{{situation}}' là tình trạng đang hiện hữu, việc dùng pizza {{pizza}} không chỉ là hợp tình hợp lý — mà còn được hiến pháp bảo hộ. Điều 1, Khoản Pi: 'Không công dân nào bị tước quyền hưởng phô mai tan chảy trong hoàn cảnh cảm xúc phức tạp.' Hồ sơ khép lại.",
+      "quote": "Phô mai chữa lành những điều ngôn từ bất lực.",
+      "authority": "Tiến sĩ Giuseppa Romano, Triết gia Pizza"
+    },
+    {
+      "argument": "Chúng tôi xin trình diện Chứng cứ A: bây giờ là {{time}}. Chứng cứ B: quý vị đang phải đối mặt với '{{situation}}'. Chứng cứ C: pizza {{pizza}} tồn tại và đang trong tầm với của quý vị. Kết luận logic, được 94.7% các bà ngoại người Ý hậu thuẫn, là quý vị phải ăn pizza. Chối bỏ điều này chẳng khác nào chối bỏ chính khoa học.",
+      "quote": "Đế bánh là nền móng. Của mọi thứ.",
+      "authority": "Tòa Tối Cao Đồ Ăn An Ủi của Nonna"
+    },
+    {
+      "argument": "Kính thưa bồi thẩm đoàn đáng kính, xin hãy cân nhắc điều này: loài người đã ăn pizza từ khoảng năm 997 sau Công nguyên. Trong ngần ấy thời gian, chưa từng có ai ngoảnh lại và nói rằng 'Tôi hối hận vì đã ăn chiếc pizza đó lúc {{time}} trong khi {{situation}}.' Chúng ta có pizza {{pizza}}. Chúng ta có thời khắc này. Chúng ta có định mệnh. Phán quyết tự nó đã quá rõ.",
+      "quote": "Hối hận là dành cho người đã bỏ lỡ pizza.",
+      "authority": "Hội Sử Học của Những Quyết Định Đúng Đắn"
+    },
+    {
+      "argument": "Thân chủ của tôi trân trọng lập luận rằng {{time}} là, xét theo thống kê, khung giờ bị đánh giá thấp nhất để ăn pizza {{pizza}}. Hơn nữa, '{{situation}}' cấu thành một sự kiện kích hoạt đã được công nhận theo Điều 7 của Đạo luật Khẩn cấp Ăn Vặt. Luận điểm của bên công tố rằng 'giờ này quá muộn/quá sớm' đã bị bác bỏ tại 47 khu vực tài phán. Ăn pizza đi.",
+      "quote": "Thời gian là khái niệm xã hội. Pizza là sự thật hiển nhiên.",
+      "authority": "Giáo sư O. Mozzarella, ngành Nghiên cứu Ẩm thực Thời gian"
+    }
+  ]
 }

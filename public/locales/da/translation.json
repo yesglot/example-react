@@ -1,16 +1,60 @@
 {
-  "title": "",
-  "subtitle": "",
-  "labelSituation": "",
-  "labelPizza": "",
-  "btnJustify": "",
-  "verdictTitle": "",
-  "verdictSub": "",
-  "sealText": "",
-  "sealVerdict": "",
-  "footerCredit": "",
-  "footerCta": "",
-  "situations": "",
-  "pizzas": "",
-  "justifications": ""
+  "title": "Pizzaforsvareren",
+  "subtitle": "Fremlæg dine omstændigheder. Modtag din kendelse.",
+  "labelSituation": "Din nuværende situation",
+  "labelPizza": "Pizzatype",
+  "btnJustify": "⚖️ Forsvar min pizza",
+  "verdictTitle": "Beviserne er overvældende.",
+  "verdictSub": "Forsvarsscore: {{score}}/100 — Spis pizzaen.",
+  "sealText": "Officielt certificeret af Pizzaforsvareren™",
+  "sealVerdict": "Kendelse: Berettiget. Ingen yderligere spørgsmål.",
+  "footerCredit": "Denne pizza er blevet juridisk godkendt på {{languageCount}} sprog takket være <yesglot>yesglot.com</yesglot>.",
+  "footerCta": "Det kunne din app også — <github>kildekoden på GitHub</github>.",
+  "situations": [
+    "har lige overstået en sprint review",
+    "det regner udenfor",
+    "lidt trist",
+    "lidt glad",
+    "det er tirsdag",
+    "jeg fortjener det",
+    "stresset over en deadline",
+    "fejrer absolut ingenting",
+    "min kollega spiste min frokost",
+    "Netflix spurgte, om jeg stadig ser med"
+  ],
+  "pizzas": [
+    "Margherita",
+    "Pepperoni",
+    "BBQ Chicken",
+    "Hawaiian",
+    "Fire oste",
+    "Meat Feast"
+  ],
+  "justifications": [
+    {
+      "argument": "Deres ære, vi befinder os ved skæringspunktet mellem menneskelig nødvendighed og kulinarisk storhed. Min klient — pizzaen — er blevet uretmæssigt betvivlet kl. {{time}} med henvisning til '{{situation}}'. Forsvaret gør gældende, at dette i virkeligheden er det ideelle tidspunkt for {{pizza}}. Praksis (Italien mod Alle, 1889) fastslår, at pizza er passende på alle døgnets timer. Forsvaret hviler.",
+      "quote": "Pizza er ikke et ønske. Det er en nødvendighed.",
+      "authority": "Den Internationale Pizzadomstol"
+    },
+    {
+      "argument": "Lad protokollen vise: kl. {{time}}, med '{{situation}}' som gældende omstændighed, er indtagelsen af {{pizza}}-pizza ikke blot berettiget — den er forfatningssikret. Artikel 1, paragraf Pi: 'Ingen borger må nægtes retten til smeltet ost under følelsesmæssigt komplicerede forhold.' Sagen er afsluttet.",
+      "quote": "Ost heler det, ord ikke kan.",
+      "authority": "Dr. Giuseppa Romano, pizzafilosof"
+    },
+    {
+      "argument": "Vi fremlægger Bevis A: Klokken er {{time}}. Bevis B: Du står midt i '{{situation}}'. Bevis C: {{pizza}}-pizza eksisterer og er tilgængelig for dig. Den logiske konklusion, støttet af 94,7 % af adspurgte italienske bedstemødre, er, at du må spise pizzaen. At nægte dette ville være at nægte selve videnskaben.",
+      "quote": "Skorpen er fundamentet. For alting.",
+      "authority": "Nonnas højesteret for comfort food"
+    },
+    {
+      "argument": "Ærede nævninge, overvej dette: Mennesker har spist pizza siden cirka år 997. I al den tid er ingen nogensinde vendt om og sagt: 'Jeg fortryder, at jeg spiste den pizza kl. {{time}}, mens {{situation}}.' Vi har {{pizza}}-pizza. Vi har et øjeblik. Vi har en skæbne. Kendelsen skriver sig selv.",
+      "quote": "Fortrydelse er for folk, der sprang pizzaen over.",
+      "authority": "Det Historiske Selskab for Gode Beslutninger"
+    },
+    {
+      "argument": "Min klient gør med al respekt gældende, at {{time}} statistisk set er det mest undervurderede tidspunkt for {{pizza}}-pizza. Desuden udgør '{{situation}}' en anerkendt udløsende begivenhed i henhold til paragraf 7 i Snacknødloven. Anklagemyndighedens påstand om, at 'det er for sent/tidligt', er blevet afvist i 47 jurisdiktioner. Spis pizzaen.",
+      "quote": "Tid er en social konstruktion. Pizza er virkelig.",
+      "authority": "Professor O. Mozzarella, studier i tidslig fødevarevidenskab"
+    }
+  ]
 }

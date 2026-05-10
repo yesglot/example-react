@@ -1,16 +1,60 @@
 {
-  "title": "",
-  "subtitle": "",
-  "labelSituation": "",
-  "labelPizza": "",
-  "btnJustify": "",
-  "verdictTitle": "",
-  "verdictSub": "",
-  "sealText": "",
-  "sealVerdict": "",
-  "footerCredit": "",
-  "footerCta": "",
-  "situations": "",
-  "pizzas": "",
-  "justifications": ""
+  "title": "披萨正当防卫",
+  "subtitle": "陈述你的情形。领取你的裁决。",
+  "labelSituation": "你当前的案情",
+  "labelPizza": "披萨类型",
+  "btnJustify": "⚖️ 为我的披萨辩护",
+  "verdictTitle": "证据确凿，不容置疑。",
+  "verdictSub": "正当性评分：{{score}}/100 —— 这披萨，立刻开吃。",
+  "sealText": "由 Pizza Justifier™ 官方认证",
+  "sealVerdict": "裁决：正当。无需再问。",
+  "footerCredit": "多亏了 <yesglot>yesglot.com</yesglot>，这块披萨已在 {{languageCount}} 种语言中获得合法辩护。",
+  "footerCta": "你的应用也可以——<github>GitHub 上的源码</github>。",
+  "situations": [
+    "刚开完一次冲刺评审",
+    "外面在下雨",
+    "有点难过",
+    "有点开心",
+    "今天星期二",
+    "我值得",
+    "被截止日期压得很焦虑",
+    "没什么特别理由，就是想庆祝一下",
+    "我同事把我的午饭吃了",
+    "Netflix 问我是不是还在看"
+  ],
+  "pizzas": [
+    "玛格丽特",
+    "意式辣香肠",
+    "BBQ 鸡肉",
+    "夏威夷",
+    "四种芝士",
+    "豪华肉食"
+  ],
+  "justifications": [
+    {
+      "argument": "法官大人，我们正站在人类基本需求与烹饪卓越的十字路口。我的当事人——披萨——竟在 {{time}} 因“{{situation}}”这一理由而遭到无端怀疑。辩方郑重提交：此时此刻，正是享用 {{pizza}} 披萨的黄金时机。根据先例（意大利诉全世界案，1889），披萨适用于全天任何时段。辩方陈述完毕。",
+      "quote": "披萨不是欲望。披萨是刚需。",
+      "authority": "国际披萨仲裁庭"
+    },
+    {
+      "argument": "请书记员记明：在 {{time}}，于“{{situation}}”这一主导情势之下，食用 {{pizza}} 披萨不仅理由充分——更受宪法保护。第一条，派节：‘凡公民处于情绪复杂状态，不得被剥夺享用融化芝士之权利。’本案到此了结。",
+      "quote": "言语治不好的，芝士能。",
+      "authority": "朱塞帕·罗马诺博士，披萨哲学家"
+    },
+    {
+      "argument": "现提交证物 A：现在是 {{time}}。证物 B：你正在应对“{{situation}}”。证物 C：{{pizza}} 披萨真实存在，而且你拿得到。基于 94.7% 受访意大利奶奶的一致意见，唯一合乎逻辑的结论就是：你必须吃这块披萨。否认这一点，无异于否认科学本身。",
+      "quote": "饼边，是万物的根基。",
+      "authority": "奶奶舒适美食最高法院"
+    },
+    {
+      "argument": "尊敬的陪审团，请诸位思量：人类自公元 997 年前后起就一直在吃披萨。如此漫长的岁月里，从未有人回头说过：‘我真后悔在 {{time}}、当时还{{situation}}的时候吃了那块披萨。’眼下我们有 {{pizza}} 披萨。我们有这个时刻。我们有命运的召唤。裁决，已经自己写好了。",
+      "quote": "后悔，属于那些没吃披萨的人。",
+      "authority": "正确决定历史学会"
+    },
+    {
+      "argument": "我的当事人谨此主张：从统计学上看，{{time}} 正是享用 {{pizza}} 披萨最被低估的黄金时段。此外，“{{situation}}”已被《零食紧急状态法》第 7 条认定为法定触发事件。控方所谓“太晚了/太早了”的主张，已在 47 个司法辖区被驳回。吃披萨。",
+      "quote": "时间是社会建构。披萨才是真实。",
+      "authority": "O. 马苏里拉教授，时间饮食研究"
+    }
+  ]
 }

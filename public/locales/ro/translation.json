@@ -1,16 +1,60 @@
 {
-  "title": "",
-  "subtitle": "",
-  "labelSituation": "",
-  "labelPizza": "",
-  "btnJustify": "",
-  "verdictTitle": "",
-  "verdictSub": "",
-  "sealText": "",
-  "sealVerdict": "",
-  "footerCredit": "",
-  "footerCta": "",
-  "situations": "",
-  "pizzas": "",
-  "justifications": ""
+  "title": "Avocatul Pizzei",
+  "subtitle": "Prezintă-ți circumstanțele. Primește verdictul.",
+  "labelSituation": "Situația ta actuală",
+  "labelPizza": "Tip de pizza",
+  "btnJustify": "⚖️ Pledez pentru pizza mea",
+  "verdictTitle": "Probele sunt zdrobitoare.",
+  "verdictSub": "Scor de justificare: {{score}}/100 — Mănâncă pizza.",
+  "sealText": "Certificat oficial de Avocatul Pizzei™",
+  "sealVerdict": "Verdict: Justificat. Fără alte întrebări.",
+  "footerCredit": "Această pizza a fost justificată legal în {{languageCount}} limbi datorită <yesglot>yesglot.com</yesglot>.",
+  "footerCta": "Și aplicația ta poate — <github>codul sursă pe GitHub</github>.",
+  "situations": [
+    "tocmai am terminat un sprint review",
+    "plouă afară",
+    "ușor trist(ă)",
+    "ușor fericit(ă)",
+    "e marți",
+    "merit asta",
+    "stresat(ă) de un termen-limită",
+    "sărbătoresc nimic anume",
+    "colegul meu mi-a mâncat prânzul",
+    "Netflix m-a întrebat dacă încă mă uit"
+  ],
+  "pizzas": [
+    "Margherita",
+    "Pepperoni",
+    "BBQ Chicken",
+    "Hawaiian",
+    "Four Cheese",
+    "Meat Feast"
+  ],
+  "justifications": [
+    {
+      "argument": "Onorată instanță, ne aflăm la răscrucea dintre necesitatea umană și excelența culinară. Clienta mea — pizza — a fost pusă pe nedrept la îndoială la {{time}}, pe motiv de '{{situation}}'. Apărarea susține că acesta este, de fapt, momentul ideal pentru {{pizza}}. Jurisprudența (Italia contra Tuturor, 1889) stabilește limpede că pizza este potrivită la orice oră. Ne-am spus pledoaria.",
+      "quote": "Pizza nu e un moft. E o necesitate.",
+      "authority": "Tribunalul Internațional al Pizzei"
+    },
+    {
+      "argument": "Să se consemneze la dosar: la ora {{time}}, având '{{situation}}' drept stare de fapt dominantă, consumul de pizza {{pizza}} nu este doar justificat — este protejat constituțional. Articolul 1, Secțiunea Pi: „Niciun cetățean nu va fi lipsit de dreptul la brânză topită în condiții de complexitate emoțională.” Caz închis.",
+      "quote": "Brânza vindecă ce cuvintele nu pot.",
+      "authority": "Dr. Giuseppa Romano, filozof al pizzei"
+    },
+    {
+      "argument": "Prezentăm Proba A: este {{time}}. Proba B: te confrunți cu '{{situation}}'. Proba C: pizza {{pizza}} există și îți este la îndemână. Concluzia logică, susținută de 94,7% dintre bunicile italiene chestionate, este că trebuie să mănânci pizza. A nega asta ar însemna să negi însăși știința.",
+      "quote": "Blatul e temelia. A tuturor lucrurilor.",
+      "authority": "Înalta Curte a Mâncării de Confort a Nonnei"
+    },
+    {
+      "argument": "Distins juriu, luați în considerare următoarele: oamenii mănâncă pizza încă din jurul anului 997 d.Hr. În tot acest timp, nimeni nu s-a uitat înapoi și n-a spus vreodată: „Regret că am mâncat pizza aia la {{time}} în timp ce {{situation}}.” Avem pizza {{pizza}}. Avem momentul. Avem destinul. Verdictul se scrie singur.",
+      "quote": "Regretul e pentru cei care au sărit peste pizza.",
+      "authority": "Societatea Istorică a Deciziilor Bune"
+    },
+    {
+      "argument": "Clientul meu susține cu tot respectul că {{time}} este, statistic vorbind, cel mai subestimat moment pentru pizza {{pizza}}. Mai mult, '{{situation}}' reprezintă un eveniment declanșator recunoscut în temeiul Clauzei 7 din Legea Urgențelor de Ronțăială. Afirmația acuzării că „e prea târziu/devreme” a fost respinsă în 47 de jurisdicții. Mănâncă pizza.",
+      "quote": "Timpul e o construcție socială. Pizza e reală.",
+      "authority": "Profesorul O. Mozzarella, studii temporale alimentare"
+    }
+  ]
 }

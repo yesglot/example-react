@@ -1,16 +1,60 @@
 {
-  "title": "",
-  "subtitle": "",
-  "labelSituation": "",
-  "labelPizza": "",
-  "btnJustify": "",
-  "verdictTitle": "",
-  "verdictSub": "",
-  "sealText": "",
-  "sealVerdict": "",
-  "footerCredit": "",
-  "footerCta": "",
-  "situations": "",
-  "pizzas": "",
-  "justifications": ""
+  "title": "Pembela Pizza",
+  "subtitle": "Nyatakan keadaan anda. Terima keputusan anda.",
+  "labelSituation": "Keadaan semasa anda",
+  "labelPizza": "Jenis pizza",
+  "btnJustify": "⚖️ Bela Pizza Saya",
+  "verdictTitle": "Buktinya amat meyakinkan.",
+  "verdictSub": "Skor pembelaan: {{score}}/100 — Makan pizzanya.",
+  "sealText": "Disahkan secara rasmi oleh Pizza Justifier™",
+  "sealVerdict": "Keputusan: Berasas. Tiada soalan lanjut.",
+  "footerCredit": "Pizza ini telah dibela secara sah dalam {{languageCount}} bahasa hasil ihsan <yesglot>yesglot.com</yesglot>.",
+  "footerCta": "Aplikasi anda pun boleh — <github>kod sumber di GitHub</github>.",
+  "situations": [
+    "baru habis sprint review",
+    "di luar sedang hujan",
+    "sedikit sedih",
+    "sedikit gembira",
+    "hari ini hari Selasa",
+    "saya memang layak",
+    "tertekan dengan tarikh akhir",
+    "meraikan tanpa sebab tertentu",
+    "rakan sekerja saya makan tengah hari saya",
+    "Netflix tanya sama ada saya masih menonton"
+  ],
+  "pizzas": [
+    "Margherita",
+    "Pepperoni",
+    "BBQ Chicken",
+    "Hawaiian",
+    "Four Cheese",
+    "Meat Feast"
+  ],
+  "justifications": [
+    {
+      "argument": "Yang Arif, kita kini berada di persimpangan antara keperluan insan dan kecemerlangan kulinari. Anak guam saya — pizza — telah diragui secara tidak adil pada {{time}} atas alasan '{{situation}}'. Pihak pembelaan dengan ini mengemukakan bahawa inilah, sesungguhnya, saat paling tepat untuk {{pizza}}. Preseden (Italy lwn. Semua Orang, 1889) dengan jelas menetapkan bahawa pizza adalah wajar pada setiap jam. Pihak kami selesai berhujah.",
+      "quote": "Pizza bukan kehendak. Pizza ialah keperluan.",
+      "authority": "Tribunal Pizza Antarabangsa"
+    },
+    {
+      "argument": "Untuk rekod mahkamah: pada {{time}}, dengan '{{situation}}' sebagai keadaan semasa, pengambilan pizza {{pizza}} bukan sahaja berasas — malah dilindungi oleh perlembagaan. Artikel 1, Seksyen Pi: 'Tiada warganegara boleh dinafikan hak terhadap keju cair dalam keadaan emosi yang rumit.' Kes ditutup.",
+      "quote": "Keju menyembuhkan apa yang kata-kata tak mampu.",
+      "authority": "Dr. Giuseppa Romano, Ahli Falsafah Pizza"
+    },
+    {
+      "argument": "Kami mengemukakan Eksibit A: sekarang pukul {{time}}. Eksibit B: anda sedang berdepan dengan '{{situation}}'. Eksibit C: pizza {{pizza}} wujud dan tersedia untuk anda. Kesimpulan logiknya, disokong oleh 94.7% nenek Itali yang ditinjau, ialah anda wajib makan pizza itu. Menafikan hal ini bererti menafikan sains itu sendiri.",
+      "quote": "Keraknya ialah asas. Bagi segala-galanya.",
+      "authority": "Mahkamah Agung Keselesaan Makanan Nonna"
+    },
+    {
+      "argument": "Para juri yang dihormati, pertimbangkan ini: manusia telah makan pizza sejak sekitar tahun 997 Masihi. Sepanjang tempoh itu, belum pernah ada sesiapa menoleh ke belakang lalu berkata, 'Saya menyesal makan pizza itu pada {{time}} ketika {{situation}}.' Kita ada pizza {{pizza}}. Kita ada saat ini. Kita ada takdir. Keputusannya menulis dirinya sendiri.",
+      "quote": "Penyesalan itu untuk orang yang tak jadi makan pizza.",
+      "authority": "Persatuan Sejarah Keputusan Yang Bijak"
+    },
+    {
+      "argument": "Anak guam saya dengan penuh hormat berhujah bahawa {{time}} ialah, secara statistik, waktu yang paling dipandang rendah untuk pizza {{pizza}}. Tambahan pula, '{{situation}}' merupakan peristiwa pencetus yang diiktiraf di bawah Klausa 7 Akta Kecemasan Snek. Dakwaan pihak pendakwa bahawa 'sudah terlalu lewat/awal' telah ditolak di 47 bidang kuasa. Makan pizzanya.",
+      "quote": "Masa itu ciptaan sosial. Pizza itu nyata.",
+      "authority": "Profesor O. Mozzarella, Pengajian Makanan Temporal"
+    }
+  ]
 }

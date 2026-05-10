@@ -1,16 +1,60 @@
 {
-  "title": "",
-  "subtitle": "",
-  "labelSituation": "",
-  "labelPizza": "",
-  "btnJustify": "",
-  "verdictTitle": "",
-  "verdictSub": "",
-  "sealText": "",
-  "sealVerdict": "",
-  "footerCredit": "",
-  "footerCta": "",
-  "situations": "",
-  "pizzas": "",
-  "justifications": ""
+  "title": "Avvocato della Pizza",
+  "subtitle": "Esponga i fatti. Riceva il verdetto.",
+  "labelSituation": "La sua situazione attuale",
+  "labelPizza": "Tipo di pizza",
+  "btnJustify": "⚖️ Arringate la Mia Pizza",
+  "verdictTitle": "Le prove sono schiaccianti.",
+  "verdictSub": "Punteggio di legittima difesa: {{score}}/100 — Mangi la pizza.",
+  "sealText": "Ufficialmente certificato da Pizza Justifier™",
+  "sealVerdict": "Verdetto: giustificata. Nessun'altra domanda.",
+  "footerCredit": "Questa pizza è stata legalmente giustificata in {{languageCount}} lingue grazie a <yesglot>yesglot.com</yesglot>.",
+  "footerCta": "Anche la sua app potrebbe esserlo — <github>codice sorgente su GitHub</github>.",
+  "situations": [
+    "ho appena finito una sprint review",
+    "fuori piove",
+    "sono un po' giù",
+    "sono un po' su di giri",
+    "è martedì",
+    "me la merito",
+    "sono stressato per una scadenza",
+    "sto festeggiando niente in particolare",
+    "il mio collega ha mangiato il mio pranzo",
+    "Netflix mi ha chiesto se sto ancora guardando"
+  ],
+  "pizzas": [
+    "Margherita",
+    "Pepperoni",
+    "Pollo BBQ",
+    "Hawaiana",
+    "Quattro Formaggi",
+    "Festa di Carne"
+  ],
+  "justifications": [
+    {
+      "argument": "Vostro Onore, ci troviamo dinanzi a un bivio tra necessità umana ed eccellenza culinaria. La mia assistita — la pizza — è stata ingiustamente messa in dubbio alle {{time}} sulla base di '{{situation}}'. La difesa sostiene invece che questo sia, nei fatti, il momento ideale per una {{pizza}}. La giurisprudenza (Italia contro Tutti, 1889) stabilisce chiaramente che la pizza è appropriata a qualsiasi ora. La difesa ha concluso.",
+      "quote": "La pizza non è un capriccio. È una necessità.",
+      "authority": "Il Tribunale Internazionale della Pizza"
+    },
+    {
+      "argument": "Si metta agli atti: alle {{time}}, con '{{situation}}' quale condizione dominante, il consumo di pizza {{pizza}} non è soltanto giustificato — è costituzionalmente protetto. Articolo 1, Sezione Pi: 'Nessun cittadino potrà essere privato del diritto al formaggio fuso in presenza di complessità emotive.' Caso chiuso.",
+      "quote": "Il formaggio cura ciò che le parole non sanno curare.",
+      "authority": "Dott.ssa Giuseppa Romano, filosofa della pizza"
+    },
+    {
+      "argument": "Presentiamo il Reperto A: sono le {{time}}. Reperto B: lei ha a che fare con '{{situation}}'. Reperto C: la pizza {{pizza}} esiste ed è alla sua portata. La conclusione logica, sostenuta dal 94,7% delle nonne italiane interpellate, è che lei debba mangiare la pizza. Negarlo equivarrebbe a negare la scienza stessa.",
+      "quote": "La crosta è il fondamento. Di tutto.",
+      "authority": "La Corte Suprema del Cibo Consolatorio di Nonna"
+    },
+    {
+      "argument": "Stimata giuria, consideri questo: gli esseri umani mangiano pizza più o meno dal 997 d.C. In tutto questo tempo, nessuno si è mai voltato indietro dicendo: 'Mi pento di aver mangiato quella pizza alle {{time}} mentre {{situation}}.' Abbiamo la pizza {{pizza}}. Abbiamo il momento. Abbiamo il destino. Il verdetto si scrive da solo.",
+      "quote": "Il rimpianto è per chi ha saltato la pizza.",
+      "authority": "La Società Storica delle Buone Decisioni"
+    },
+    {
+      "argument": "La mia assistita sostiene rispettosamente che le {{time}} siano, statisticamente, l'orario più sottovalutato per una pizza {{pizza}}. Inoltre, '{{situation}}' costituisce un evento scatenante riconosciuto ai sensi della Clausola 7 della Legge sulle Emergenze da Spuntino. L'obiezione dell'accusa secondo cui 'è troppo tardi/presto' è già stata respinta in 47 giurisdizioni. Mangi la pizza.",
+      "quote": "Il tempo è un costrutto sociale. La pizza è reale.",
+      "authority": "Professor O. Mozzarella, studi temporo-gastronomici"
+    }
+  ]
 }
