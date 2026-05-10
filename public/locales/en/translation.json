@@ -1,0 +1,61 @@
+{
+  "title": "Pizza Justifier",
+  "subtitle": "Enter your circumstances. Receive your verdict.",
+  "labelTime": "Current time",
+  "labelSituation": "Your current situation",
+  "labelPizza": "Pizza type",
+  "btnJustify": "⚖️ Justify My Pizza",
+  "verdictTitle": "The evidence is overwhelming.",
+  "verdictSub": "Justification score: {{score}}/100 — Eat the pizza.",
+  "sealText": "Officially certified by the Pizza Justifier™",
+  "sealVerdict": "Verdict: Justified. No further questions.",
+  "footerCredit": "This pizza has been legally justified in 8 languages thanks to <yesglot>yesglot.com</yesglot>.",
+  "footerCta": "Your app could too — <github>source code on GitHub</github>.",
+  "times": [
+    "7:00 AM", "10:30 AM", "12:00 PM", "2:47 PM", "5:00 PM",
+    "7:30 PM", "10:00 PM", "12:00 AM", "2:47 AM", "4:13 AM"
+  ],
+  "situations": [
+    "just finished a sprint review",
+    "it's raining outside",
+    "slightly sad",
+    "slightly happy",
+    "it's Tuesday",
+    "I deserve it",
+    "stressed about a deadline",
+    "celebrating nothing in particular",
+    "my coworker ate my lunch",
+    "Netflix asked if I'm still watching"
+  ],
+  "pizzas": [
+    "Margherita", "Pepperoni", "BBQ Chicken", "Hawaiian",
+    "Four Cheese", "Veggie Supreme", "Meat Feast", "Mystery Fridge Leftovers"
+  ],
+  "justifications": [
+    {
+      "argument": "Your Honor, we find ourselves at a crossroads of human necessity and culinary excellence. My client — pizza — has been unjustly doubted at {{time}} on the grounds of '{{situation}}'. The defense submits that this is, in fact, the ideal moment for {{pizza}}. Precedent (Italy v. Everyone, 1889) establishes that pizza is appropriate at all hours. We rest.",
+      "quote": "Pizza is not a want. It is a need.",
+      "authority": "The International Pizza Tribunal"
+    },
+    {
+      "argument": "Let the record show: at {{time}}, with '{{situation}}' as the prevailing condition, the consumption of {{pizza}} pizza is not only justified — it is constitutionally protected. Article 1, Section Pi: 'No citizen shall be denied the right to melted cheese under conditions of emotional complexity.' Case closed.",
+      "quote": "Cheese heals what words cannot.",
+      "authority": "Dr. Giuseppa Romano, Pizza Philosopher"
+    },
+    {
+      "argument": "We present Exhibit A: it is {{time}}. Exhibit B: you are dealing with '{{situation}}'. Exhibit C: {{pizza}} pizza exists and is available to you. The logical conclusion, supported by 94.7% of surveyed Italian grandmothers, is that you must eat the pizza. To deny this would be to deny science itself.",
+      "quote": "The crust is the foundation. Of everything.",
+      "authority": "Nonna's Supreme Court of Comfort Food"
+    },
+    {
+      "argument": "Distinguished jury, consider this: humans have been eating pizza since roughly 997 AD. In all that time, no one has ever looked back and said 'I regret eating that pizza at {{time}} while {{situation}}.' We have {{pizza}} pizza. We have a moment. We have a destiny. The verdict writes itself.",
+      "quote": "Regret is for people who skipped pizza.",
+      "authority": "The Historical Society of Good Decisions"
+    },
+    {
+      "argument": "My client respectfully argues that {{time}} is, statistically, the most underrated time for {{pizza}} pizza. Furthermore, '{{situation}}' represents a recognized trigger event under Clause 7 of the Snack Emergency Act. The prosecution's claim that 'it's too late/early' has been dismissed in 47 jurisdictions. Eat the pizza.",
+      "quote": "Time is a social construct. Pizza is real.",
+      "authority": "Professor O. Mozzarella, Temporal Food Studies"
+    }
+  ]
+}
