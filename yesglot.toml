@@ -1,0 +1,147 @@
+# https://github.com/yesglot/yesglot.toml
+[yesglot]
+version = 1
+
+[project]
+id = "019e1376-b68b-7045-86b5-9feb87f898cf"
+technology = "react/i18next"
+tracked_branch = "main"
+custom_prompt = """
+This is a playful consumer app called Pizza Justifier. Translate it with a witty, overconfident faux-legal tone, as if a mock courtroom is enthusiastically defending someone's right to eat pizza.
+
+Guidelines:
+- Prioritize natural, idiomatic language over literal word-for-word translation.
+- Preserve the humor, warmth, and theatrical legal framing.
+- Keep UI labels short, clear, and punchy.
+- Keep product names, pizza names, and brand references recognizable unless a localized form is clearly more natural.
+- The longer "justification" texts should read like funny courtroom arguments, not dry technical text.
+- Quotes and authority lines should feel memorable and amusing in the target language.
+"""
+
+[source_language]
+tag = "en"
+path = "public/locales/en/translation.json"
+
+[[target_language]]
+tag = "es"
+path = "public/locales/es/translation.json"
+
+[[target_language]]
+tag = "fr"
+path = "public/locales/fr/translation.json"
+
+[[target_language]]
+tag = "de"
+path = "public/locales/de/translation.json"
+
+[[target_language]]
+tag = "pt"
+path = "public/locales/pt/translation.json"
+
+[[target_language]]
+tag = "zh-CN"
+path = "public/locales/zh-CN/translation.json"
+
+[[target_language]]
+tag = "ja"
+path = "public/locales/ja/translation.json"
+
+[[target_language]]
+tag = "ko"
+path = "public/locales/ko/translation.json"
+
+[[target_language]]
+tag = "ar"
+path = "public/locales/ar/translation.json"
+
+[[target_language]]
+tag = "hi"
+path = "public/locales/hi/translation.json"
+
+[[target_language]]
+tag = "it"
+path = "public/locales/it/translation.json"
+
+[[target_language]]
+tag = "nl"
+path = "public/locales/nl/translation.json"
+
+[[target_language]]
+tag = "tr"
+path = "public/locales/tr/translation.json"
+
+[[target_language]]
+tag = "pl"
+path = "public/locales/pl/translation.json"
+
+[[target_language]]
+tag = "ru"
+path = "public/locales/ru/translation.json"
+
+[[target_language]]
+tag = "id"
+path = "public/locales/id/translation.json"
+
+[[target_language]]
+tag = "vi"
+path = "public/locales/vi/translation.json"
+
+[[target_language]]
+tag = "th"
+path = "public/locales/th/translation.json"
+
+[[target_language]]
+tag = "uk"
+path = "public/locales/uk/translation.json"
+
+[[target_language]]
+tag = "cs"
+path = "public/locales/cs/translation.json"
+
+[[target_language]]
+tag = "sv"
+path = "public/locales/sv/translation.json"
+
+[[target_language]]
+tag = "ro"
+path = "public/locales/ro/translation.json"
+
+[[target_language]]
+tag = "el"
+path = "public/locales/el/translation.json"
+
+[[target_language]]
+tag = "da"
+path = "public/locales/da/translation.json"
+
+[[target_language]]
+tag = "fi"
+path = "public/locales/fi/translation.json"
+
+[[target_language]]
+tag = "no"
+path = "public/locales/no/translation.json"
+
+[[target_language]]
+tag = "he"
+path = "public/locales/he/translation.json"
+
+[[target_language]]
+tag = "hu"
+path = "public/locales/hu/translation.json"
+
+[[target_language]]
+tag = "ms"
+path = "public/locales/ms/translation.json"
+
+[[target_language]]
+tag = "fa"
+path = "public/locales/fa/translation.json"
+
+[[target_language]]
+tag = "bn"
+path = "public/locales/bn/translation.json"
+
+[[target_language]]
+tag = "ta"
+path = "public/locales/ta/translation.json"
