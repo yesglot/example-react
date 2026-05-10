@@ -1,16 +1,60 @@
 {
-  "title": "",
-  "subtitle": "",
-  "labelSituation": "",
-  "labelPizza": "",
-  "btnJustify": "",
-  "verdictTitle": "",
-  "verdictSub": "",
-  "sealText": "",
-  "sealVerdict": "",
-  "footerCredit": "",
-  "footerCta": "",
-  "situations": "",
-  "pizzas": "",
-  "justifications": ""
+  "title": "Pizza Pleitbezorger",
+  "subtitle": "Voer uw omstandigheden aan. Ontvang uw vonnis.",
+  "labelSituation": "Uw huidige situatie",
+  "labelPizza": "Pizzasoort",
+  "btnJustify": "⚖️ Pleit Mijn Pizza Vrij",
+  "verdictTitle": "Het bewijsmateriaal is vernietigend.",
+  "verdictSub": "Rechtvaardigingsscore: {{score}}/100 — Eet die pizza.",
+  "sealText": "Officieel gecertificeerd door de Pizza Pleitbezorger™",
+  "sealVerdict": "Vonnis: gerechtvaardigd. Geen verdere vragen.",
+  "footerCredit": "Deze pizza is juridisch gerechtvaardigd in {{languageCount}} talen dankzij <yesglot>yesglot.com</yesglot>.",
+  "footerCta": "Uw app ook — <github>broncode op GitHub</github>.",
+  "situations": [
+    "net een sprintreview overleefd",
+    "het regent buiten",
+    "een tikje sip",
+    "een tikje vrolijk",
+    "het is dinsdag",
+    "ik verdien dit",
+    "stress om een deadline",
+    "ik vier eigenlijk helemaal niets",
+    "mijn collega heeft mijn lunch opgegeten",
+    "Netflix vroeg of ik nog steeds keek"
+  ],
+  "pizzas": [
+    "Margherita",
+    "Pepperoni",
+    "BBQ Chicken",
+    "Hawaï",
+    "Vier Kazen",
+    "Vleesfestijn"
+  ],
+  "justifications": [
+    {
+      "argument": "Edelachtbare, wij bevinden ons op het kruispunt van menselijke noodzaak en culinaire grootheid. Mijn cliënt — pizza — is ten onrechte in twijfel getrokken om {{time}} op grond van '{{situation}}'. De verdediging stelt dat dit juist hét uitgelezen moment is voor {{pizza}}. Jurisprudentie (Italië tegen Iedereen, 1889) bevestigt dat pizza op elk uur passend is. Wij rusten.",
+      "quote": "Pizza is geen wens. Het is een noodzaak.",
+      "authority": "Het Internationaal Pizzatribunaal"
+    },
+    {
+      "argument": "Laat de notulen vermelden: om {{time}}, met '{{situation}}' als heersende omstandigheid, is het consumeren van {{pizza}}-pizza niet alleen gerechtvaardigd — het is grondwettelijk beschermd. Artikel 1, Sectie Pi: 'Geen burger zal het recht op gesmolten kaas worden ontzegd onder omstandigheden van emotionele complexiteit.' Zaak gesloten.",
+      "quote": "Kaas heelt wat woorden niet kunnen.",
+      "authority": "Dr. Giuseppa Romano, pizzafilosoof"
+    },
+    {
+      "argument": "Wij presenteren Bewijsstuk A: het is {{time}}. Bewijsstuk B: u heeft te maken met '{{situation}}'. Bewijsstuk C: {{pizza}}-pizza bestaat en staat tot uw beschikking. De logische conclusie, gesteund door 94,7% van de ondervraagde Italiaanse oma's, is dat u die pizza moet eten. Dit ontkennen zou neerkomen op het ontkennen van de wetenschap zelf.",
+      "quote": "De korst is het fundament. Van alles.",
+      "authority": "Nonna's Hooggerechtshof voor Troostvoer"
+    },
+    {
+      "argument": "Geachte jury, overweeg het volgende: mensen eten al pizza sinds ongeveer 997 na Christus. In al die tijd heeft nog nooit iemand teruggekeken en gezegd: 'Ik heb spijt dat ik die pizza om {{time}} heb gegeten terwijl {{situation}}.' We hebben {{pizza}}-pizza. We hebben een moment. We hebben een lotsbestemming. Het vonnis schrijft zichzelf.",
+      "quote": "Spijt is voor mensen die pizza hebben overgeslagen.",
+      "authority": "Het Historisch Genootschap van Goede Beslissingen"
+    },
+    {
+      "argument": "Mijn cliënt betoogt met alle respect dat {{time}} statistisch gezien het meest onderschatte tijdstip is voor {{pizza}}-pizza. Bovendien geldt '{{situation}}' als een erkende aanleiding onder Clausule 7 van de Snacknoodwet. De stelling van de aanklager dat 'het te laat/vroeg is' is in 47 rechtsgebieden verworpen. Eet die pizza.",
+      "quote": "Tijd is een sociaal construct. Pizza is echt.",
+      "authority": "Professor O. Mozzarella, temporele voedselstudies"
+    }
+  ]
 }

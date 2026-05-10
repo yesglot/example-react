@@ -1,16 +1,60 @@
 {
-  "title": "",
-  "subtitle": "",
-  "labelSituation": "",
-  "labelPizza": "",
-  "btnJustify": "",
-  "verdictTitle": "",
-  "verdictSub": "",
-  "sealText": "",
-  "sealVerdict": "",
-  "footerCredit": "",
-  "footerCta": "",
-  "situations": "",
-  "pizzas": "",
-  "justifications": ""
+  "title": "Pembela Pizza",
+  "subtitle": "Jelaskan keadaan Anda. Terima putusannya.",
+  "labelSituation": "Situasi Anda saat ini",
+  "labelPizza": "Jenis pizza",
+  "btnJustify": "⚖️ Bela Pizza Saya",
+  "verdictTitle": "Buktinya tak terbantahkan.",
+  "verdictSub": "Skor pembenaran: {{score}}/100 — Santap pizzanya.",
+  "sealText": "Disertifikasi resmi oleh Pizza Justifier™",
+  "sealVerdict": "Putusan: Sah. Tidak ada pertanyaan lanjutan.",
+  "footerCredit": "Pizza ini telah dibenarkan secara hukum dalam {{languageCount}} bahasa berkat <yesglot>yesglot.com</yesglot>.",
+  "footerCta": "Aplikasi Anda juga bisa — <github>kode sumber di GitHub</github>.",
+  "situations": [
+    "baru saja selesai sprint review",
+    "di luar sedang hujan",
+    "agak sedih",
+    "agak bahagia",
+    "hari ini hari Selasa",
+    "saya pantas mendapatkannya",
+    "stres karena tenggat waktu",
+    "merayakan tanpa alasan khusus",
+    "rekan kerja saya memakan makan siang saya",
+    "Netflix bertanya apakah saya masih menonton"
+  ],
+  "pizzas": [
+    "Margherita",
+    "Pepperoni",
+    "BBQ Chicken",
+    "Hawaiian",
+    "Four Cheese",
+    "Meat Feast"
+  ],
+  "justifications": [
+    {
+      "argument": "Yang Mulia, kita berdiri di persimpangan antara kebutuhan manusia dan keagungan kuliner. Klien kami — pizza — telah diragukan secara tidak adil pada pukul {{time}} dengan dasar '{{situation}}'. Pihak pembela mengajukan bahwa justru inilah saat yang paling tepat untuk {{pizza}}. Preseden (Italia v. Semua Orang, 1889) menegaskan bahwa pizza patut disantap pada segala jam. Pembela selesai.",
+      "quote": "Pizza bukan keinginan. Ini kebutuhan.",
+      "authority": "Tribunal Pizza Internasional"
+    },
+    {
+      "argument": "Biarlah tercatat: pada pukul {{time}}, dengan '{{situation}}' sebagai keadaan yang berlaku, menyantap pizza {{pizza}} bukan sekadar dibenarkan — melainkan dilindungi konstitusi. Pasal 1, Bagian Pi: 'Tak seorang warga pun boleh dirampas haknya atas keju leleh dalam kondisi emosi yang rumit.' Perkara selesai.",
+      "quote": "Keju menyembuhkan apa yang tak sanggup diucapkan kata-kata.",
+      "authority": "Dr. Giuseppa Romano, Filsuf Pizza"
+    },
+    {
+      "argument": "Kami ajukan Barang Bukti A: sekarang pukul {{time}}. Barang Bukti B: Anda sedang menghadapi '{{situation}}'. Barang Bukti C: pizza {{pizza}} itu ada dan tersedia bagi Anda. Kesimpulan logisnya, didukung oleh 94.7% nenek-nenek Italia yang disurvei, adalah bahwa Anda wajib menyantap pizza itu. Menolak hal ini sama saja dengan menolak sains itu sendiri.",
+      "quote": "Pinggiran adalah fondasi. Dari segalanya.",
+      "authority": "Mahkamah Agung Nonna untuk Comfort Food"
+    },
+    {
+      "argument": "Anggota juri yang terhormat, pertimbangkan ini: manusia telah menyantap pizza sejak kira-kira tahun 997 M. Dalam seluruh rentang waktu itu, belum pernah ada yang menoleh ke belakang dan berkata, 'Aku menyesal makan pizza itu pada pukul {{time}} saat {{situation}}.' Kita punya pizza {{pizza}}. Kita punya momen. Kita punya takdir. Putusannya menulis dirinya sendiri.",
+      "quote": "Penyesalan adalah milik mereka yang melewatkan pizza.",
+      "authority": "Perhimpunan Sejarah Keputusan yang Tepat"
+    },
+    {
+      "argument": "Klien kami dengan hormat berpendapat bahwa pukul {{time}} secara statistik adalah waktu yang paling diremehkan untuk pizza {{pizza}}. Lebih lanjut, '{{situation}}' merupakan peristiwa pemicu yang diakui menurut Klausul 7 Undang-Undang Darurat Camilan. Klaim penuntut bahwa 'ini terlalu malam/pagi' telah ditolak di 47 yurisdiksi. Santap pizzanya.",
+      "quote": "Waktu adalah konstruksi sosial. Pizza itu nyata.",
+      "authority": "Profesor O. Mozzarella, Kajian Temporal Pangan"
+    }
+  ]
 }

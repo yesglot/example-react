@@ -1,16 +1,60 @@
 {
-  "title": "",
-  "subtitle": "",
-  "labelSituation": "",
-  "labelPizza": "",
-  "btnJustify": "",
-  "verdictTitle": "",
-  "verdictSub": "",
-  "sealText": "",
-  "sealVerdict": "",
-  "footerCredit": "",
-  "footerCta": "",
-  "situations": "",
-  "pizzas": "",
-  "justifications": ""
+  "title": "Pizza Justifier",
+  "subtitle": "Przedstaw okoliczności. Odbierz werdykt.",
+  "labelSituation": "Twoja obecna sytuacja",
+  "labelPizza": "Rodzaj pizzy",
+  "btnJustify": "⚖️ Uzasadnij moją pizzę",
+  "verdictTitle": "Dowody są miażdżące.",
+  "verdictSub": "Wynik uzasadnienia: {{score}}/100 — Jeść pizzę.",
+  "sealText": "Oficjalnie poświadczone przez Pizza Justifier™",
+  "sealVerdict": "Werdykt: Uzasadnione. Brak dalszych pytań.",
+  "footerCredit": "Ta pizza została prawnie uzasadniona w {{languageCount}} językach dzięki <yesglot>yesglot.com</yesglot>.",
+  "footerCta": "Twoja aplikacja też może — <github>kod źródłowy na GitHubie</github>.",
+  "situations": [
+    "właśnie skończyłem przegląd sprintu",
+    "na dworze pada",
+    "jest mi trochę smutno",
+    "jest mi trochę wesoło",
+    "jest wtorek",
+    "należy mi się",
+    "stresuję się deadlinem",
+    "świętuję kompletnie bez powodu",
+    "mój współpracownik zjadł mój lunch",
+    "Netflix zapytał, czy nadal oglądam"
+  ],
+  "pizzas": [
+    "Margherita",
+    "Pepperoni",
+    "BBQ Chicken",
+    "Hawajska",
+    "Cztery sery",
+    "Mięsna uczta"
+  ],
+  "justifications": [
+    {
+      "argument": "Wysoki Sądzie, stoimy dziś na rozdrożu ludzkiej potrzeby i kulinarnej doskonałości. Mój klient — pizza — został niesłusznie podany w wątpliwość o {{time}} z powodu okoliczności określonych jako '{{situation}}'. Obrona wnosi, że jest to wręcz idealny moment na pizzę {{pizza}}. Orzecznictwo (Włochy kontra Wszyscy, 1889) jasno stanowi, że pizza jest stosowna o każdej porze. Obrona spoczywa.",
+      "quote": "Pizza to nie zachcianka. To potrzeba.",
+      "authority": "Międzynarodowy Trybunał Pizzy"
+    },
+    {
+      "argument": "Niech protokół wykaże: o {{time}}, przy obowiązującym stanie faktycznym '{{situation}}', spożycie pizzy {{pizza}} jest nie tylko uzasadnione — jest konstytucyjnie chronione. Artykuł 1, paragraf Pi: „Żadnemu obywatelowi nie można odmówić prawa do roztopionego sera w warunkach emocjonalnej złożoności”. Sprawa zamknięta.",
+      "quote": "Ser leczy to, czego słowa nie potrafią.",
+      "authority": "Dr Giuseppa Romano, filozofka pizzy"
+    },
+    {
+      "argument": "Przedstawiamy Dowód A: jest {{time}}. Dowód B: mierzysz się z okolicznością '{{situation}}'. Dowód C: pizza {{pizza}} istnieje i pozostaje w twoim zasięgu. Logiczny wniosek, poparty przez 94,7% ankietowanych włoskich babć, jest jeden: musisz zjeść tę pizzę. Zaprzeczać temu to podważać samą naukę.",
+      "quote": "Brzeg jest fundamentem. Wszystkiego.",
+      "authority": "Najwyższy Sąd Babci do spraw Jedzenia na Pocieszenie"
+    },
+    {
+      "argument": "Szanowni przysięgli, rozważcie to: ludzie jedzą pizzę mniej więcej od 997 roku. Przez cały ten czas nikt nigdy nie obejrzał się za siebie i nie powiedział: „Żałuję, że zjadłem tę pizzę o {{time}}, kiedy {{situation}}”. Mamy pizzę {{pizza}}. Mamy chwilę. Mamy przeznaczenie. Ten werdykt pisze się sam.",
+      "quote": "Żal jest dla tych, którzy odpuścili pizzę.",
+      "authority": "Towarzystwo Historyczne Dobrych Decyzji"
+    },
+    {
+      "argument": "Mój klient z pełnym szacunkiem podnosi, że {{time}} jest statystycznie najbardziej niedocenianą porą na pizzę {{pizza}}. Co więcej, '{{situation}}' stanowi uznane zdarzenie wyzwalające w rozumieniu Klauzuli 7 Ustawy o Nagłych Przypadkach Przekąskowych. Twierdzenie oskarżenia, jakoby „było za późno/za wcześnie”, zostało oddalone w 47 jurysdykcjach. Zjedz tę pizzę.",
+      "quote": "Czas to konstrukt społeczny. Pizza jest prawdziwa.",
+      "authority": "Profesor O. Mozzarella, studia nad czasoprzestrzenią kulinarną"
+    }
+  ]
 }

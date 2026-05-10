@@ -1,16 +1,60 @@
 {
-  "title": "",
-  "subtitle": "",
-  "labelSituation": "",
-  "labelPizza": "",
-  "btnJustify": "",
-  "verdictTitle": "",
-  "verdictSub": "",
-  "sealText": "",
-  "sealVerdict": "",
-  "footerCredit": "",
-  "footerCta": "",
-  "situations": "",
-  "pizzas": "",
-  "justifications": ""
+  "title": "Pizza Obhájce",
+  "subtitle": "Uveďte okolnosti. Obdržíte verdikt.",
+  "labelSituation": "Vaše současná situace",
+  "labelPizza": "Typ pizzy",
+  "btnJustify": "⚖️ Obhajte mou pizzu",
+  "verdictTitle": "Důkazy jsou zdrcující.",
+  "verdictSub": "Skóre oprávněnosti: {{score}}/100 — Snězte tu pizzu.",
+  "sealText": "Úředně ověřeno Pizza Obhájcem™",
+  "sealVerdict": "Verdikt: Oprávněno. Bez dalších otázek.",
+  "footerCredit": "Tato pizza byla právoplatně obhájena v {{languageCount}} jazycích díky <yesglot>yesglot.com</yesglot>.",
+  "footerCta": "I vaše aplikace může — <github>zdrojový kód na GitHubu</github>.",
+  "situations": [
+    "právě jsem dokončil(a) sprint review",
+    "venku prší",
+    "jsem trochu smutný/á",
+    "jsem trochu šťastný/á",
+    "je úterý",
+    "zasloužím si to",
+    "stresuju se kvůli deadlinu",
+    "slavím bez zvláštního důvodu",
+    "kolega mi snědl oběd",
+    "Netflix se zeptal, jestli se pořád dívám"
+  ],
+  "pizzas": [
+    "Margherita",
+    "Pepperoni",
+    "BBQ Chicken",
+    "Hawaiian",
+    "Čtyři sýry",
+    "Masová hostina"
+  ],
+  "justifications": [
+    {
+      "argument": "Vaše Ctihodnosti, ocitáme se na křižovatce lidské potřeby a kulinářské dokonalosti. Můj klient — pizza — byl v {{time}} neprávem zpochybněn na základě okolnosti '{{situation}}'. Obhajoba předkládá, že jde naopak o naprosto ideální chvíli pro {{pizza}}. Precedens (Itálie vs. Všichni, 1889) jasně stanoví, že pizza je vhodná v kteroukoliv hodinu. Nemáme dalších námitek.",
+      "quote": "Pizza není rozmar. Je to potřeba.",
+      "authority": "Mezinárodní pizzový tribunál"
+    },
+    {
+      "argument": "Nechť je do protokolu zaznamenáno: v {{time}}, za převládajícího stavu '{{situation}}', je konzumace pizzy {{pizza}} nejen oprávněná — je ústavně chráněná. Článek 1, oddíl Pi: 'Žádnému občanovi nesmí být odepřeno právo na rozteklý sýr za podmínek emoční složitosti.' Případ uzavřen.",
+      "quote": "Sýr hojí to, na co slova nestačí.",
+      "authority": "Dr. Giuseppa Romano, filozofka pizzy"
+    },
+    {
+      "argument": "Předkládáme důkaz A: je {{time}}. Důkaz B: potýkáte se s '{{situation}}'. Důkaz C: pizza {{pizza}} existuje a je vám k dispozici. Logický závěr, podpořený 94,7 % dotázaných italských babiček, zní, že tu pizzu musíte sníst. Popřít to by znamenalo popřít samu vědu.",
+      "quote": "Kůrka je základ. Úplně všeho.",
+      "authority": "Nonnin nejvyšší soud komfortního jídla"
+    },
+    {
+      "argument": "Ctihodná poroto, zvažte toto: lidstvo jí pizzu přibližně od roku 997 n. l. A za celou tu dobu se ještě nikdo neohlédl zpět a neřekl: 'Lituji, že jsem v {{time}} snědl(a) tu pizzu, zatímco {{situation}}.' Máme pizzu {{pizza}}. Máme okamžik. Máme osud. Verdikt se píše sám.",
+      "quote": "Lítost je pro ty, kdo pizzu vynechali.",
+      "authority": "Historická společnost dobrých rozhodnutí"
+    },
+    {
+      "argument": "Můj klient s veškerou úctou namítá, že {{time}} je statisticky nejvíce podceňovaný čas na pizzu {{pizza}}. Dále okolnost '{{situation}}' představuje uznanou spouštěcí událost podle článku 7 Zákona o svačinové nouzi. Tvrzení obžaloby, že 'už je moc pozdě/brzo', bylo zamítnuto ve 47 jurisdikcích. Snězte tu pizzu.",
+      "quote": "Čas je společenský konstrukt. Pizza je skutečná.",
+      "authority": "Profesor O. Mozzarella, studia temporální gastronomie"
+    }
+  ]
 }

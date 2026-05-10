@@ -1,16 +1,60 @@
 {
-  "title": "",
-  "subtitle": "",
-  "labelSituation": "",
-  "labelPizza": "",
-  "btnJustify": "",
-  "verdictTitle": "",
-  "verdictSub": "",
-  "sealText": "",
-  "sealVerdict": "",
-  "footerCredit": "",
-  "footerCta": "",
-  "situations": "",
-  "pizzas": "",
-  "justifications": ""
+  "title": "Pizzaforsvareren",
+  "subtitle": "Legg frem omstendighetene. Motta dommen.",
+  "labelSituation": "Din nåværende situasjon",
+  "labelPizza": "Pizzatype",
+  "btnJustify": "⚖️ Forsvar pizzaen min",
+  "verdictTitle": "Bevisene er overveldende.",
+  "verdictSub": "Forsvarsscore: {{score}}/100 — Spis pizzaen.",
+  "sealText": "Offisielt sertifisert av Pizzaforsvareren™",
+  "sealVerdict": "Kjennelse: Berettiget. Ingen flere spørsmål.",
+  "footerCredit": "Denne pizzaen er juridisk forsvart på {{languageCount}} språk takket være <yesglot>yesglot.com</yesglot>.",
+  "footerCta": "Din app kan også bli det — <github>kildekode på GitHub</github>.",
+  "situations": [
+    "nettopp overlevd en sprintgjennomgang",
+    "det regner ute",
+    "litt trist",
+    "litt glad",
+    "det er tirsdag",
+    "jeg fortjener det",
+    "stresset over en deadline",
+    "feirer absolutt ingenting",
+    "kollegaen min spiste lunsjen min",
+    "Netflix spurte om jeg fortsatt ser på"
+  ],
+  "pizzas": [
+    "Margherita",
+    "Pepperoni",
+    "BBQ Chicken",
+    "Hawaiian",
+    "Fire oster",
+    "Kjøttfest"
+  ],
+  "justifications": [
+    {
+      "argument": "Ærede dommer, vi står ved et veiskille mellom menneskelig nødvendighet og kulinarisk storhet. Min klient — pizzaen — har urettmessig blitt betvilt klokken {{time}} på grunnlag av '{{situation}}'. Forsvaret anfører at dette tvert imot er det perfekte tidspunktet for {{pizza}}. Rettspraksis (Italia mot Alle, 1889) slår fast at pizza er passende til enhver tid. Forsvaret hviler.",
+      "quote": "Pizza er ikke et ønske. Det er et behov.",
+      "authority": "Den internasjonale pizzadomstolen"
+    },
+    {
+      "argument": "La protokollen vise: klokken {{time}}, med '{{situation}}' som gjeldende tilstand, er inntak av {{pizza}}-pizza ikke bare berettiget — det er grunnlovsbeskyttet. Artikkel 1, paragraf Pi: «Ingen borger skal nektes retten til smeltet ost under forhold preget av følelsesmessig kompleksitet.» Saken er avsluttet.",
+      "quote": "Ost leger det ord ikke kan.",
+      "authority": "Dr. Giuseppa Romano, pizzafilosof"
+    },
+    {
+      "argument": "Vi legger frem bevis A: Klokken er {{time}}. Bevis B: Du håndterer '{{situation}}'. Bevis C: {{pizza}}-pizza eksisterer og er tilgjengelig for deg. Den logiske konklusjonen, støttet av 94,7 % av spurte italienske bestemødre, er at du må spise pizzaen. Å nekte dette ville være å fornekte selve vitenskapen.",
+      "quote": "Bunnen er fundamentet. For alt.",
+      "authority": "Nonnas høyesterett for komfortmat"
+    },
+    {
+      "argument": "Ærede jury, vurder dette: Mennesker har spist pizza siden omtrent år 997. I all den tiden har ingen noensinne sett tilbake og sagt: «Jeg angrer på at jeg spiste den pizzaen klokken {{time}} mens '{{situation}}'.» Vi har {{pizza}}-pizza. Vi har et øyeblikk. Vi har en skjebne. Dommen skriver seg selv.",
+      "quote": "Anger er for folk som hoppet over pizza.",
+      "authority": "Det historiske selskap for gode beslutninger"
+    },
+    {
+      "argument": "Min klient anfører respektfullt at {{time}} statistisk sett er det mest undervurderte tidspunktet for {{pizza}}-pizza. Videre utgjør '{{situation}}' en anerkjent utløsende hendelse etter klausul 7 i Snacknødloven. Påtalemyndighetens påstand om at «det er for sent/tidlig» er avvist i 47 jurisdiksjoner. Spis pizzaen.",
+      "quote": "Tid er en sosial konstruksjon. Pizza er virkelig.",
+      "authority": "Professor O. Mozzarella, temporale matstudier"
+    }
+  ]
 }

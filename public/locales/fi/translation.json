@@ -1,16 +1,60 @@
 {
-  "title": "",
-  "subtitle": "",
-  "labelSituation": "",
-  "labelPizza": "",
-  "btnJustify": "",
-  "verdictTitle": "",
-  "verdictSub": "",
-  "sealText": "",
-  "sealVerdict": "",
-  "footerCredit": "",
-  "footerCta": "",
-  "situations": "",
-  "pizzas": "",
-  "justifications": ""
+  "title": "Pizzaoikeuttaja",
+  "subtitle": "Esitä olosuhteesi. Saat tuomiosi.",
+  "labelSituation": "Nykyinen tilanteesi",
+  "labelPizza": "Pizzatyyppi",
+  "btnJustify": "⚖️ Oikeuta pizzani",
+  "verdictTitle": "Todisteet ovat murskaavat.",
+  "verdictSub": "Oikeutuspisteet: {{score}}/100 — Syö pizza.",
+  "sealText": "Pizzaoikeuttaja™ on virallisesti vahvistanut tämän",
+  "sealVerdict": "Tuomio: Oikeutettu. Ei lisäkysymyksiä.",
+  "footerCredit": "Tämä pizza on laillisesti oikeutettu {{languageCount}} kielellä, kiitos <yesglot>yesglot.comin</yesglot>.",
+  "footerCta": "Niin voisi olla sunkin sovelluksesi — <github>lähdekoodi GitHubissa</github>.",
+  "situations": [
+    "sain juuri sprinttikatselmuksen valmiiksi",
+    "ulkona sataa",
+    "hieman surullinen",
+    "hieman iloinen",
+    "on tiistai",
+    "olen ansainnut tämän",
+    "deadline stressaa",
+    "juhlin ilman erityistä syytä",
+    "työkaveri söi lounaani",
+    "Netflix kysyi, katselenko yhä"
+  ],
+  "pizzas": [
+    "Margherita",
+    "Pepperoni",
+    "BBQ Chicken",
+    "Hawaiian",
+    "Neljä juustoa",
+    "Lihajuhla"
+  ],
+  "justifications": [
+    {
+      "argument": "Arvoisa tuomari, olemme ihmiselämän välttämättömyyden ja kulinaristisen erinomaisuuden risteyksessä. Asiakastani — pizzaa — on epäilty täysin perusteettomasti kello {{time}} vedoten seikkaan '{{situation}}'. Puolustus esittää, että kyseessä on nimenomaan täydellinen hetki {{pizza}}-pizzalle. Oikeuskäytäntö (Italia vastaan Kaikki Muut, 1889) vahvistaa, että pizza on asianmukaista kaikkina vuorokaudenaikoina. Puolustus lepää.",
+      "quote": "Pizza ei ole halu. Se on tarve.",
+      "authority": "Kansainvälinen pizzatuomioistuin"
+    },
+    {
+      "argument": "Merkittäköön pöytäkirjaan: kello {{time}}, olosuhteen '{{situation}}' vallitessa, {{pizza}}-pizzan nauttiminen ei ole ainoastaan oikeutettua — se on perustuslain suojaamaa. Artikla 1, pykälä Pi: 'Yhdeltäkään kansalaiselta ei saa evätä oikeutta sulaneeseen juustoon emotionaalisesti monimutkaisissa oloissa.' Asia loppuun käsitelty.",
+      "quote": "Juusto parantaa sen, mihin sanat eivät riitä.",
+      "authority": "Tohtori Giuseppa Romano, pizzafilosofi"
+    },
+    {
+      "argument": "Esitämme todisteen A: kello on {{time}}. Todiste B: käsittelet parhaillaan tilannetta '{{situation}}'. Todiste C: {{pizza}}-pizza on olemassa ja saatavillasi. Looginen johtopäätös, jota tukee 94,7 % kyselyyn vastanneista italialaisista isoäideistä, on että sinun kuuluu syödä pizza. Tämän kiistäminen olisi tieteen itsensä kiistämistä.",
+      "quote": "Pohja on kaiken perusta. Kirjaimellisesti.",
+      "authority": "Nonnan lohturuoan korkein oikeus"
+    },
+    {
+      "argument": "Arvoisa valamiehistö, harkitkaa tätä: ihmiset ovat syöneet pizzaa suunnilleen vuodesta 997 jaa. lähtien. Koko sinä aikana kukaan ei ole koskaan katsonut taakseen ja sanonut: 'Kadun, että söin sen {{pizza}}-pizzan kello {{time}}, kun {{situation}}.' Meillä on {{pizza}}-pizza. Meillä on hetki. Meillä on kohtalo. Tuomio kirjoittaa itse itsensä.",
+      "quote": "Katumus kuuluu niille, jotka jättivät pizzan väliin.",
+      "authority": "Hyvien päätösten historiallinen seura"
+    },
+    {
+      "argument": "Asiakkaani esittää kunnioittavasti, että {{time}} on tilastollisesti aliarvostetuin mahdollinen ajankohta {{pizza}}-pizzalle. Lisäksi '{{situation}}' täyttää Naposteluhätätilalain 7 §:n mukaisen tunnustetun laukaisutapahtuman tunnusmerkit. Syyttäjän väite siitä, että 'on liian myöhäistä/aikaista', on hylätty 47 oikeuspiirissä. Syö pizza.",
+      "quote": "Aika on sosiaalinen konstruktio. Pizza on todellinen.",
+      "authority": "Professori O. Mozzarella, ajallisen ruokatutkimuksen laitos"
+    }
+  ]
 }

@@ -1,16 +1,60 @@
 {
-  "title": "",
-  "subtitle": "",
-  "labelSituation": "",
-  "labelPizza": "",
-  "btnJustify": "",
-  "verdictTitle": "",
-  "verdictSub": "",
-  "sealText": "",
-  "sealVerdict": "",
-  "footerCredit": "",
-  "footerCta": "",
-  "situations": "",
-  "pizzas": "",
-  "justifications": ""
+  "title": "Pizzafelmentő",
+  "subtitle": "Ismertesd a körülményeket. Vedd át az ítéletet.",
+  "labelSituation": "Jelenlegi helyzeted",
+  "labelPizza": "Pizzafajta",
+  "btnJustify": "⚖️ Igazold a pizzámat",
+  "verdictTitle": "A bizonyítékok elsöprőek.",
+  "verdictSub": "Igazolási pontszám: {{score}}/100 — A pizzát el kell fogyasztani.",
+  "sealText": "Hivatalosan hitelesítve a Pizzafelmentő™ által",
+  "sealVerdict": "Ítélet: Indokolt. Nincs több kérdés.",
+  "footerCredit": "Ezt a pizzát {{languageCount}} nyelven igazolta törvényesen a <yesglot>yesglot.com</yesglot>.",
+  "footerCta": "A te appod is megteheti — <github>forráskód a GitHubon</github>.",
+  "situations": [
+    "épp befejeztem egy sprint review-t",
+    "odakint esik az eső",
+    "enyhén szomorú vagyok",
+    "enyhén boldog vagyok",
+    "kedd van",
+    "megérdemlem",
+    "stresszelek egy határidő miatt",
+    "ünneplek, különösebb ok nélkül",
+    "a munkatársam megette az ebédemet",
+    "a Netflix megkérdezte, hogy még mindig nézem-e"
+  ],
+  "pizzas": [
+    "Margherita",
+    "Pepperoni",
+    "BBQ Chicken",
+    "Hawaiian",
+    "Négysajtos",
+    "Húsimádó"
+  ],
+  "justifications": [
+    {
+      "argument": "Tisztelt Bíróság, az emberi szükség és a gasztronómiai kiválóság sorsdöntő kereszteződéséhez érkeztünk. Ügyfelemet — a pizzát — {{time}} órakor méltatlan kétségbe vonás érte, mégpedig a következő indokkal: '{{situation}}'. A védelem tisztelettel előadja, hogy ez valójában a lehető legtökéletesebb pillanat egy {{pizza}} pizzára. A precedensjog (Olaszország kontra Mindenki, 1889) egyértelműen kimondja, hogy a pizza minden órában helyénvaló. A védelem nyugszik.",
+      "quote": "A pizza nem vágy. A pizza szükséglet.",
+      "authority": "A Nemzetközi Pizzatörvényszék"
+    },
+    {
+      "argument": "Kerüljön jegyzőkönyvbe: {{time}} órakor, amikor az uralkodó körülmény '{{situation}}', a {{pizza}} pizza elfogyasztása nem csupán indokolt — hanem alkotmányos védelem alatt áll. 1. cikk, Pi szakasz: 'Egyetlen állampolgárt sem lehet megfosztani az olvadt sajthoz való jogától érzelmileg bonyolult helyzetekben.' Az ügy lezárva.",
+      "quote": "A sajt begyógyítja azt, amit a szavak nem tudnak.",
+      "authority": "Dr. Giuseppa Romano, pizzafilozófus"
+    },
+    {
+      "argument": "Bemutatjuk az A számú bizonyítékot: {{time}} van. B számú bizonyíték: éppen ezzel küzdesz — '{{situation}}'. C számú bizonyíték: létezik {{pizza}} pizza, és elérhető számodra. A logikus következtetés, amelyet a megkérdezett olasz nagymamák 94,7%-a is alátámaszt, az, hogy meg kell enned a pizzát. Ennek tagadása már magának a tudománynak a tagadása volna.",
+      "quote": "A perem az alap. Mindannak.",
+      "authority": "Nagyi Komfortételi Legfelsőbb Bírósága"
+    },
+    {
+      "argument": "Tisztelt esküdtszék, vegyék fontolóra a következőt: az emberiség nagyjából Kr. u. 997 óta eszik pizzát. Ez idő alatt még senki sem nézett vissza úgy, hogy azt mondta volna: 'Bárcsak ne ettem volna meg azt a pizzát {{time}}-kor, miközben {{situation}}.' Van {{pizza}} pizzánk. Van egy pillanatunk. Van végzetünk. Az ítélet gyakorlatilag megírta önmagát.",
+      "quote": "A megbánás azoknak való, akik kihagyták a pizzát.",
+      "authority": "A Jó Döntések Történelmi Társasága"
+    },
+    {
+      "argument": "Ügyfelem tisztelettel azzal érvel, hogy {{time}} statisztikailag a legméltatlanabbul alábecsült időpont egy {{pizza}} pizzához. Továbbá a '{{situation}}' a Nassolási Vészhelyzeti Törvény 7. záradéka szerint elismert kiváltó eseménynek minősül. A vád azon állítását, miszerint 'ehhez túl késő/korán van', 47 joghatóság már elutasította. Egyed meg a pizzát.",
+      "quote": "Az idő társadalmi konstrukció. A pizza valóság.",
+      "authority": "O. Mozzarella professzor, temporális ételtudományok"
+    }
+  ]
 }

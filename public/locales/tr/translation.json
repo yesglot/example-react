@@ -1,16 +1,60 @@
 {
-  "title": "",
-  "subtitle": "",
-  "labelSituation": "",
-  "labelPizza": "",
-  "btnJustify": "",
-  "verdictTitle": "",
-  "verdictSub": "",
-  "sealText": "",
-  "sealVerdict": "",
-  "footerCredit": "",
-  "footerCta": "",
-  "situations": "",
-  "pizzas": "",
-  "justifications": ""
+  "title": "Pizza Müdafaası",
+  "subtitle": "Durumunuzu beyan edin. Hükmünüzü alın.",
+  "labelSituation": "Mevcut durumunuz",
+  "labelPizza": "Pizza türü",
+  "btnJustify": "⚖️ Pizzamı Savun",
+  "verdictTitle": "Deliller ezici nitelikte.",
+  "verdictSub": "Haklılık puanı: {{score}}/100 — Pizzayı ye.",
+  "sealText": "Pizza Müdafaası™ tarafından resmen tasdik edilmiştir",
+  "sealVerdict": "Hüküm: Haklı. Başka soru yok.",
+  "footerCredit": "Bu pizza, <yesglot>yesglot.com</yesglot> sayesinde {{languageCount}} dilde yasal olarak haklı bulunmuştur.",
+  "footerCta": "Sizin uygulamanız da olabilir — <github>kaynak kodu GitHub'da</github>.",
+  "situations": [
+    "az önce sprint değerlendirmesini bitirdim",
+    "dışarıda yağmur yağıyor",
+    "biraz keyifsizim",
+    "biraz keyfim yerinde",
+    "bugün salı",
+    "hak ettim",
+    "teslim tarihine stres yapıyorum",
+    "özel bir sebep olmadan kutlama yapıyorum",
+    "iş arkadaşım öğle yemeğimi yedi",
+    "Netflix hâlâ izleyip izlemediğimi sordu"
+  ],
+  "pizzas": [
+    "Margherita",
+    "Pepperoni",
+    "BBQ Chicken",
+    "Hawaiian",
+    "Dört Peynirli",
+    "Et Şöleni"
+  ],
+  "justifications": [
+    {
+      "argument": "Sayın Yargıç, insanî ihtiyaç ile mutfak mükemmeliyetinin kesiştiği tarihi bir kavşaktayız. Müvekkilim — pizza — saat {{time}} itibarıyla '{{situation}}' gerekçesiyle haksız yere şüphe altında bırakılmıştır. Savunma makamı beyan eder ki bu, aslında {{pizza}} için kusursuz andır. Emsal karar (İtalya / Herkes, 1889), pizzanın günün her saatinde uygun olduğunu açıkça ortaya koymuştur. Savunmanın diyeceği budur.",
+      "quote": "Pizza bir istek değil. Bir ihtiyaçtır.",
+      "authority": "Uluslararası Pizza Mahkemesi"
+    },
+    {
+      "argument": "Tutanağa geçsin: saat {{time}} itibarıyla, hâkim durum '{{situation}}' iken, {{pizza}} pizza tüketimi yalnızca haklı değil — anayasal güvence altındadır. Madde 1, Fıkra Pi: 'Hiçbir vatandaş, duygusal karmaşa hâllerinde erimiş peynir hakkından mahrum bırakılamaz.' Dava kapanmıştır.",
+      "quote": "Peynirin iyileştirdiğini kelimeler başaramaz.",
+      "authority": "Dr. Giuseppa Romano, Pizza Filozofu"
+    },
+    {
+      "argument": "Delil A'yı sunuyoruz: saat {{time}}. Delil B: '{{situation}}' ile uğraşıyorsunuz. Delil C: {{pizza}} pizza vardır ve erişiminize açıktır. Ankete katılan İtalyan büyükannelerinin %94,7'siyle desteklenen mantıksal sonuç şudur: pizzayı yemek zorundasınız. Aksini iddia etmek, bilimin kendisini inkâr etmek olur.",
+      "quote": "Kenar, temeldir. Her şeyin.",
+      "authority": "Nonna'nın Konfor Yemekleri Yüce Mahkemesi"
+    },
+    {
+      "argument": "Saygıdeğer jüri, lütfen şu hususu değerlendirin: insanlar yaklaşık MS 997'den beri pizza yiyor. Bunca zaman içinde hiç kimse dönüp de 'Saat {{time}} iken, {{situation}} durumundayken o pizzayı yediğime pişmanım' dememiştir. Elimizde {{pizza}} pizza var. Elimizde bir an var. Elimizde kader var. Hüküm zaten kendini yazıyor.",
+      "quote": "Pişmanlık, pizzayı pas geçenler içindir.",
+      "authority": "İyi Kararlar Tarih Kurumu"
+    },
+    {
+      "argument": "Müvekkilim saygıyla arz eder ki {{time}}, istatistiksel olarak {{pizza}} pizza için en hafife alınan saat dilimidir. Ayrıca '{{situation}}', Atıştırmalık Acil Durum Yasası'nın 7. Maddesi kapsamında tanınmış bir tetikleyici olaydır. İddia makamının 'çok geç/erken' yönündeki itirazı 47 yargı bölgesinde reddedilmiştir. Pizzayı ye.",
+      "quote": "Zaman toplumsal bir kurgudur. Pizza gerçektir.",
+      "authority": "Prof. O. Mozzarella, Zamansal Yemek Çalışmaları"
+    }
+  ]
 }
