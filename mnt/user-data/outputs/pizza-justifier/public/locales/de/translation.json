@@ -1,0 +1,61 @@
+{
+  "title": "Pizza-Rechtfertiger",
+  "subtitle": "Gib deine Umstände ein. Erhalte dein Urteil.",
+  "labelTime": "Aktuelle Uhrzeit",
+  "labelSituation": "Deine aktuelle Situation",
+  "labelPizza": "Pizza-Typ",
+  "btnJustify": "⚖️ Meine Pizza rechtfertigen",
+  "verdictTitle": "Die Beweise sind überwältigend.",
+  "verdictSub": "Rechtfertigungspunktzahl: {{score}}/100 — Iss die Pizza.",
+  "sealText": "Offiziell zertifiziert vom Pizza-Rechtfertiger™",
+  "sealVerdict": "Urteil: Gerechtfertigt. Keine weiteren Fragen.",
+  "footerCredit": "Diese Pizza wurde in 8 Sprachen rechtlich gerechtfertigt, dank <yesglot>yesglot.com</yesglot>.",
+  "footerCta": "Deine App könnte es auch — <github>Quellcode auf GitHub</github>.",
+  "times": [
+    "7:00 Uhr", "10:30 Uhr", "12:00 Uhr", "14:47 Uhr", "17:00 Uhr",
+    "19:30 Uhr", "22:00 Uhr", "0:00 Uhr", "2:47 Uhr", "4:13 Uhr"
+  ],
+  "situations": [
+    "gerade ein Sprint-Review beendet",
+    "es regnet draußen",
+    "leicht traurig",
+    "leicht glücklich",
+    "es ist Dienstag",
+    "ich verdiene es",
+    "gestresst wegen einer Deadline",
+    "feiere nichts Besonderes",
+    "mein Kollege hat mein Mittagessen gegessen",
+    "Netflix fragte ob ich noch zuschaue"
+  ],
+  "pizzas": [
+    "Margherita", "Pepperoni", "BBQ-Hähnchen", "Hawaii",
+    "Vier Käse", "Gemüse-Supreme", "Fleischfest", "Mysteriöse Kühlschrank-Reste"
+  ],
+  "justifications": [
+    {
+      "argument": "Euer Ehren, wir befinden uns an einem Scheideweg menschlicher Notwendigkeit und kulinarischer Exzellenz. Mein Mandant — die Pizza — wurde um {{time}} zu Unrecht unter dem Vorwand von '{{situation}}' angezweifelt. Die Verteidigung behauptet, dass dies der ideale Moment für {{pizza}} Pizza ist. Der Präzedenzfall (Italien gegen alle, 1889) stellt fest, dass Pizza zu jeder Stunde angemessen ist. Wir ruhen.",
+      "quote": "Pizza ist kein Wunsch. Es ist ein Bedürfnis.",
+      "authority": "Das Internationale Pizza-Tribunal"
+    },
+    {
+      "argument": "Es sei zu Protokoll gegeben: um {{time}}, mit '{{situation}}' als vorherrschender Bedingung, ist der Konsum von {{pizza}} Pizza nicht nur gerechtfertigt — er ist verfassungsrechtlich geschützt. Artikel 1, Abschnitt Pi: 'Kein Bürger soll das Recht auf geschmolzenen Käse unter Bedingungen emotionaler Komplexität verweigert werden.' Fall abgeschlossen.",
+      "quote": "Käse heilt, was Worte nicht können.",
+      "authority": "Dr. Giuseppa Romano, Pizza-Philosophin"
+    },
+    {
+      "argument": "Wir präsentieren Beweisstück A: Es ist {{time}}. Beweisstück B: Sie befassen sich mit '{{situation}}'. Beweisstück C: {{pizza}} Pizza existiert und steht Ihnen zur Verfügung. Die logische Schlussfolgerung, unterstützt von 94,7% der befragten italienischen Großmütter, ist, dass Sie die Pizza essen müssen. Dies zu leugnen würde die Wissenschaft selbst leugnen.",
+      "quote": "Die Kruste ist das Fundament. Von allem.",
+      "authority": "Nonnas Oberster Gerichtshof für Soulfood"
+    },
+    {
+      "argument": "Geschätzte Geschworene, bedenken Sie: Menschen essen seit etwa 997 n. Chr. Pizza. In all dieser Zeit hat niemand jemals zurückgeblickt und gesagt 'Ich bereue, dass ich diese Pizza um {{time}} gegessen habe, während ich {{situation}}.' Wir haben {{pizza}} Pizza. Wir haben einen Moment. Wir haben ein Schicksal. Das Urteil schreibt sich von selbst.",
+      "quote": "Reue ist für Menschen, die Pizza ausgelassen haben.",
+      "authority": "Die Historische Gesellschaft guter Entscheidungen"
+    },
+    {
+      "argument": "Mein Mandant argumentiert respektvoll, dass {{time}} statistisch gesehen die am meisten unterschätzte Zeit für {{pizza}} Pizza ist. Darüber hinaus stellt '{{situation}}' ein anerkanntes Auslöseereignis gemäß Klausel 7 des Snack-Notstandsgesetzes dar. Das Argument der Anklage, dass 'es zu spät/früh ist', wurde in 47 Gerichtsbarkeiten abgewiesen. Iss die Pizza.",
+      "quote": "Zeit ist ein soziales Konstrukt. Pizza ist real.",
+      "authority": "Prof. O. Mozzarella, Zeitliche Lebensmittelstudien"
+    }
+  ]
+}

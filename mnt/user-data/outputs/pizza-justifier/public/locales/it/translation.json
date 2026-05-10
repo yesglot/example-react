@@ -1,0 +1,61 @@
+{
+  "title": "Giustificatore di Pizza",
+  "subtitle": "Inserisci le tue circostanze. Ricevi il tuo verdetto.",
+  "labelTime": "Ora attuale",
+  "labelSituation": "La tua situazione attuale",
+  "labelPizza": "Tipo di pizza",
+  "btnJustify": "⚖️ Giustifica la Mia Pizza",
+  "verdictTitle": "Le prove sono schiaccianti.",
+  "verdictSub": "Punteggio di giustificazione: {{score}}/100 — Mangia la pizza.",
+  "sealText": "Ufficialmente certificato dal Giustificatore di Pizza™",
+  "sealVerdict": "Verdetto: Giustificato. Nessun'altra domanda.",
+  "footerCredit": "Questa pizza è stata legalmente giustificata in 8 lingue grazie a <yesglot>yesglot.com</yesglot>.",
+  "footerCta": "Anche la tua app potrebbe — <github>codice sorgente su GitHub</github>.",
+  "times": [
+    "7:00", "10:30", "12:00", "14:47", "17:00",
+    "19:30", "22:00", "0:00", "2:47", "4:13"
+  ],
+  "situations": [
+    "ho appena finito una sprint review",
+    "sta piovendo fuori",
+    "leggermente triste",
+    "leggermente felice",
+    "è martedì",
+    "me lo merito",
+    "stressato da una scadenza",
+    "festeggiando niente in particolare",
+    "il mio collega ha mangiato il mio pranzo",
+    "Netflix ha chiesto se sto ancora guardando"
+  ],
+  "pizzas": [
+    "Margherita", "Pepperoni", "Pollo BBQ", "Hawaiana",
+    "Quattro Formaggi", "Suprema Vegetariana", "Festa di Carne", "Avanzi Misteriosi del Frigo"
+  ],
+  "justifications": [
+    {
+      "argument": "Vostro Onore, ci troviamo a un crocevia di necessità umana ed eccellenza culinaria. Il mio cliente — la pizza — è stato ingiustamente messo in dubbio alle {{time}} per via di '{{situation}}'. La difesa sostiene che questo è il momento ideale per la pizza {{pizza}}. Il precedente (Italia contro Tutti, 1889) stabilisce che la pizza è appropriata a qualsiasi ora. Abbiamo concluso.",
+      "quote": "La pizza non è un desiderio. È un bisogno.",
+      "authority": "Il Tribunale Internazionale della Pizza"
+    },
+    {
+      "argument": "Che risulti agli atti: alle {{time}}, con '{{situation}}' come condizione prevalente, il consumo di pizza {{pizza}} non è solo giustificato — è costituzionalmente protetto. Articolo 1, Sezione Pi: 'Nessun cittadino sarà privato del diritto al formaggio fuso in condizioni di complessità emotiva.' Caso chiuso.",
+      "quote": "Il formaggio guarisce ciò che le parole non possono.",
+      "authority": "Dott.ssa Giuseppa Romano, Filosofa della Pizza"
+    },
+    {
+      "argument": "Presentiamo l'Allegato A: sono le {{time}}. Allegato B: stai affrontando '{{situation}}'. Allegato C: la pizza {{pizza}} esiste ed è disponibile. La conclusione logica, supportata dal 94,7% delle nonne italiane intervistate, è che devi mangiare la pizza. Negarlo significherebbe negare la scienza stessa.",
+      "quote": "Il cornicione è il fondamento. Di tutto.",
+      "authority": "La Corte Suprema del Comfort Food della Nonna"
+    },
+    {
+      "argument": "Distinta giuria, considerate questo: gli esseri umani mangiano pizza dal 997 d.C. circa. In tutto questo tempo, nessuno ha mai guardato indietro e detto 'mi pento di aver mangiato quella pizza alle {{time}} mentre {{situation}}.' Abbiamo la pizza {{pizza}}. Abbiamo un momento. Abbiamo un destino. Il verdetto si scrive da solo.",
+      "quote": "Il rimpianto è per chi ha evitato la pizza.",
+      "authority": "La Società Storica delle Buone Decisioni"
+    },
+    {
+      "argument": "Il mio cliente sostiene rispettosamente che le {{time}} sono, statisticamente, l'ora più sottovalutata per la pizza {{pizza}}. Inoltre, '{{situation}}' rappresenta un evento scatenante riconosciuto ai sensi della Clausola 7 della Legge sulle Emergenze Snack. L'argomentazione dell'accusa secondo cui 'è troppo tardi/presto' è stata respinta in 47 giurisdizioni. Mangia la pizza.",
+      "quote": "Il tempo è un costrutto sociale. La pizza è reale.",
+      "authority": "Prof. O. Mozzarella, Studi Temporali Alimentari"
+    }
+  ]
+}

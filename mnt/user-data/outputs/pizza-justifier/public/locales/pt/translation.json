@@ -1,0 +1,61 @@
+{
+  "title": "Justificador de Pizza",
+  "subtitle": "Insira suas circunstâncias. Receba seu veredicto.",
+  "labelTime": "Hora atual",
+  "labelSituation": "Sua situação atual",
+  "labelPizza": "Tipo de pizza",
+  "btnJustify": "⚖️ Justificar Minha Pizza",
+  "verdictTitle": "As evidências são esmagadoras.",
+  "verdictSub": "Pontuação de justificativa: {{score}}/100 — Coma a pizza.",
+  "sealText": "Oficialmente certificado pelo Justificador de Pizza™",
+  "sealVerdict": "Veredicto: Justificado. Sem mais perguntas.",
+  "footerCredit": "Esta pizza foi legalmente justificada em 8 idiomas graças ao <yesglot>yesglot.com</yesglot>.",
+  "footerCta": "Seu app também poderia — <github>código fonte no GitHub</github>.",
+  "times": [
+    "7h00", "10h30", "12h00", "14h47", "17h00",
+    "19h30", "22h00", "0h00", "2h47", "4h13"
+  ],
+  "situations": [
+    "acabei de terminar uma revisão de sprint",
+    "está chovendo lá fora",
+    "levemente triste",
+    "levemente feliz",
+    "é terça-feira",
+    "eu mereço",
+    "estressado com um prazo",
+    "celebrando nada em particular",
+    "meu colega comeu meu almoço",
+    "a Netflix perguntou se ainda estou assistindo"
+  ],
+  "pizzas": [
+    "Margherita", "Pepperoni", "Frango BBQ", "Havaiana",
+    "Quatro Queijos", "Suprema Vegetariana", "Festim de Carne", "Sobras Misteriosas da Geladeira"
+  ],
+  "justifications": [
+    {
+      "argument": "Meritíssimo, nos encontramos em uma encruzilhada de necessidade humana e excelência culinária. Meu cliente — a pizza — foi injustamente questionado às {{time}} sob o argumento de '{{situation}}'. A defesa sustenta que este é o momento ideal para a pizza {{pizza}}. O precedente (Itália contra Todos, 1889) estabelece que a pizza é adequada a qualquer hora. Encerramos.",
+      "quote": "Pizza não é um desejo. É uma necessidade.",
+      "authority": "O Tribunal Internacional da Pizza"
+    },
+    {
+      "argument": "Que conste em ata: às {{time}}, com '{{situation}}' como condição prevalecente, o consumo de pizza {{pizza}} não é apenas justificado — é constitucionalmente protegido. Artigo 1, Seção Pi: 'Nenhum cidadão será privado do direito ao queijo derretido em condições de complexidade emocional.' Caso encerrado.",
+      "quote": "O queijo cura o que as palavras não conseguem.",
+      "authority": "Dra. Giuseppa Romano, Filósofa da Pizza"
+    },
+    {
+      "argument": "Apresentamos o Anexo A: são {{time}}. Anexo B: você está lidando com '{{situation}}'. Anexo C: a pizza {{pizza}} existe e está disponível. A conclusão lógica, apoiada por 94,7% das avós italianas pesquisadas, é que você deve comer a pizza. Negar isso seria negar a própria ciência.",
+      "quote": "A borda é o alicerce. De tudo.",
+      "authority": "O Supremo Tribunal do Comfort Food da Nonna"
+    },
+    {
+      "argument": "Distinto júri, considerem isto: os humanos comem pizza desde aproximadamente 997 d.C. Em todo esse tempo, ninguém jamais olhou para trás e disse 'me arrependo de ter comido aquela pizza às {{time}} enquanto {{situation}}.' Temos pizza {{pizza}}. Temos um momento. Temos um destino. O veredicto se escreve sozinho.",
+      "quote": "O arrependimento é para quem pulou a pizza.",
+      "authority": "A Sociedade Histórica de Boas Decisões"
+    },
+    {
+      "argument": "Meu cliente argumenta respeitosamente que {{time}} é, estatisticamente, o horário mais subestimado para a pizza {{pizza}}. Além disso, '{{situation}}' representa um evento gatilho reconhecido sob a Cláusula 7 da Lei de Emergência de Lanches. O argumento da promotoria de que 'é tarde/cedo demais' foi rejeitado em 47 jurisdições. Coma a pizza.",
+      "quote": "O tempo é um constructo social. A pizza é real.",
+      "authority": "Prof. O. Mozzarella, Estudos Temporais Alimentares"
+    }
+  ]
+}
